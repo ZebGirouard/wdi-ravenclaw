@@ -5,7 +5,6 @@
   * [Class Library](0_onboarding/class_library.md)
   * [Required Software](0_onboarding/required_software.md)
   * [Course Outline](0_onboarding/course_outline.md)
-  * [All Videos/Source Code](0_onboarding/videos.md)
 * [Front End Fundamentals](01_front_end_fundamentals/README.md)
   * [Introduction](01_front_end_fundamentals/d01.md)
     * [Mac Cheat Sheet](01_front_end_fundamentals/d01-mac-cheat-sheet.md)

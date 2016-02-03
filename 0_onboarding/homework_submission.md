@@ -1,7 +1,7 @@
 
 ## Homework Submission
 
-  1. Browse to `dragons/wdi_chi_dragons`
+  1. Browse to `wdi/wdi_chi_ravenclaw`
   2. `git add .` all of your changes to the Git purgatory.
   3. `git commit -m "your commit message"` to commit your changes from the Git purgatory into your branch.
   4. `git pull origin master` to gather any changes from the base repository

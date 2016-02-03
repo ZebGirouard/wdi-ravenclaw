@@ -1,4 +1,4 @@
-![dragons.png](dragons.png)
+![ravenclaw.jpg](ravenclaw.jpg)
 
 ## Welcome from your instructors
 
@@ -6,7 +6,7 @@ Hi there! You've no doubt stumbled upon our class Gitbook. This book will be our
 
 ## Pre-Work
 
-WDI requires for you to complete https://fundamentals.generalassemb.ly prior to the first day of WDI. **If you have not completed thisn by day one, speak to your producer or instructor immediately**.
+WDI requires for you to complete https://fundamentals.generalassemb.ly prior to the first day of WDI. **If you have not completed this by day one, speak to your producer or instructor immediately**.
 
 ## Recommend Reading
 

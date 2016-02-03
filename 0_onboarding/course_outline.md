@@ -16,10 +16,11 @@
   - Node.js
   - Express.js
   - MongoDB
-  - Backbone.js
+  - React.js
 * **Section 4: Advanced Frameworks**
   - Ruby on Rails
-  - React.js
+  - Angular.js
+  - Computer Science Fundamentals
 
 ## Weekly Schedule Breakdown
 
