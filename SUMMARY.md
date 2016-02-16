@@ -7,6 +7,7 @@
   * [Class Library](0_onboarding/class_library.md)
   * [Required Software](0_onboarding/required_software.md)
   * [Course Outline](0_onboarding/course_outline.md)
+  * [Weekly Schedule](0_onboarding/schedule.md)
   * [InstallFest](0_onboarding/installfest.md)
   * [Required Reading](0_onboarding/required_reading.md)
 * [Front End Fundamentals](01_front_end_fundamentals/README.md)
