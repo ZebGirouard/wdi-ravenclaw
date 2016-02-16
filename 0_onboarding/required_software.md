@@ -2,7 +2,7 @@
 
 ## Required Software
 
-WDI requires specific software to use in class. We do this so each student is using the same development environment as each other. Please install the following software during orientation (or prior to class start).
+WDI requires specific software to use in class. We do this so each student is using the same development environment as each other. Please install the following software during orientation (or prior to class start). It is best to install each item in the order they are listed (otherwise errors *will* occur).
 
 If you run into any problems installing this software, please alert an instructor or your producer.
 
@@ -17,6 +17,13 @@ If you run into any problems installing this software, please alert an instructo
 * **What**: A modern day, open source text editor.
 * **Why**: It was created by the team at Github, is open source, it is free, and is a fantastic text editor for multiple languages.
 * **Instructions**: Visit https://atom.io/ to download Atom. Drag/drop the application to your Mac application folder (and pin it to your dock). We use this every single day in WDI.
+
+#### Sublime Text Editor
+
+* **What**: One of the best paid text editors available.
+* **Why**: There is an extensive plugin library available and Sublime is hands down awesome.
+* **Instructions**: Sublime is installed with the InstallFest Script. In terminal, run `subl filename.txt` to open a file.
+
 
 #### Google Chrome
 
@@ -48,9 +55,9 @@ If you run into any problems installing this software, please alert an instructo
 
 * **What**: An extension that allows you to search the Mozilla Developer Network through the Chrome Omnibox.
 * **Why**: It is a great resource. Also, W3Schools sucks (and any professional in this industry will poke fun at you if you use it).
-* **Instructions**: Visit [https://chrome.google.com/webstore/detail/mdn-search/ffpifaemeofjmncjdbegmbpcdaemkeoc](here) and install the extension.
+* **Instructions**: Visit [https://chrome.google.com/webstore/detail/mdn-search/ffpifaemeofjmncjdbegmbpcdaemkeoc?hl=en](here) and install the extension.
 
-#### Tape CSS
+#### Tape
 
 * **What**: A graphical extension that helps measure HTML elements on the page.
 * **Why**: You don't want your design and websites to look bad, do you?
@@ -60,4 +67,4 @@ If you run into any problems installing this software, please alert an instructo
 
 * **What**: An extension that makes JSON look pretty.
 * **Why**: To easily navigate JSON files using a tree-view.
-* **Instructions**: Visit [https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en](here) and install the extension.
+* **Instructions**: Visit [https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc](here) and install the extension.

@@ -1,3 +1,9 @@
+## Homework Repository
+
+All course homework will be stored in this repository:
+
+- https://github.com/ga-students/wdi_chi_ravenclaw
+- If you run into an error or problem, you may [create an issue](https://github.com/ga-students/wdi_chi_ravenclaw/issues) and we will answer it.
 
 ## Homework Submission
 
@@ -9,7 +15,7 @@
   6. Inside of your fork, create a new **pull request**.
   7. Submit the pull request for your instructors to check!
 
-That's all!
+That's all! We will practice this workflow during class repeatedly to get you comfortable with it.
 
 ## Homework Submission Deadline
 
