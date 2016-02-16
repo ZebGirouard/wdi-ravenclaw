@@ -10,6 +10,7 @@
   * [Weekly Schedule](0_onboarding/schedule.md)
   * [InstallFest](0_onboarding/installfest.md)
   * [Required Reading](0_onboarding/required_reading.md)
+  * [Dash](0_onboarding/dash.md)
 * [Front End Fundamentals](01_front_end_fundamentals/README.md)
   * [Introduction](01_front_end_fundamentals/d01.md)
     * [Mac Cheat Sheet](01_front_end_fundamentals/d01-mac-cheat-sheet.md)
