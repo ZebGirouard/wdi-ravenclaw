@@ -7,7 +7,7 @@ Working in the command line is a key skill to develop as a programmer. It's a bi
 #### "A New Hope"
 ###### Act I
 
-* In your `dragons` directory, create a directory called `star_wars`
+* In your `Ravenclaw` directory, create a directory called `star_wars`
 * In your `star_wars` folder, create two new directories: `empire` and `rebellion`.
 * Inside the `empire` directory, create a .txt file called `darth_vader`
 * Use the force(or your knowledge of the command line) to add the text "...heavy breathing..." to the `darth_vader` file. (Don't remember how to do this? Use the 'other force', known as Google or Stack Overflow)
