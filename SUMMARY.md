@@ -19,3 +19,4 @@
     * [Basic Terminal & Navigating the Filesystem](0_onboarding/basic_terminal.md)
     * [Workshop: Star Wars Command Line](01_front_end_fundamentals/d01_workhop_cli.md)
     * [Google Chrome Shortcuts](0_onboarding/googleChromeShortcuts.md)
+    * [Chrome Dev Tools](01_front_end_fundamentals/chromeDevTools.md)
