@@ -1,4 +1,4 @@
-## Markdown and READMEs
+## Homework: Markdown and READMEs
 
 Popular repositories on Github often have a jazzy introduction to their project that shows right on their Github project's main page.
 
@@ -8,7 +8,6 @@ Check out some examples:
   - [browserify](https://github.com/substack/node-browserify)
   - [phaser](https://github.com/photonstorm/phaser)
   - [ponysay](https://github.com/erkin/ponysay)
-
 
 ### Adding a Readme to a repo
 
@@ -24,7 +23,7 @@ Check out some examples:
 ### Pushing/Viewing on Github
 
 1. Save all your changes to the git repo and push it up to Github
-2. Now if you go to your project's page on Github, you should see the text that you put into the README showing below the list of files in the folder ![](GithubReadme.png)
+2. Now if you go to your project's page on Github, you should see the text that you put into the README showing below the list of files in the folder.
 
 ### Jazzing it up
 
@@ -34,3 +33,16 @@ You probably don't yet know Markdown, so this will be one of your first assignme
   - [Markdown Basics](https://help.github.com/articles/markdown-basics/)
   - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
   - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+### Markdown Basics
+
+Research how to create and highlight the following syntax with Markdown:
+
+- **code** snippets
+- Headers (h1, h2, h3)
+- Bold text
+- Italic text
+- Add a link
+- Add an image
+
+The best way to learn is to practice. Jazz up your Readme!

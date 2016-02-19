@@ -1,0 +1,979 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book WDI Chicago #4: Ravenclaw -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Data Types | WDI Chicago #4: Ravenclaw</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../01_front_end_fundamentals/d02-controlflow-examples.html" />
+    
+    
+    <link rel="prev" href="../01_front_end_fundamentals/d02-variables.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="1.2.2"
+        data-chapter-title="Data Types"
+        data-filepath="01_front_end_fundamentals/d02-datatypes-examples.md"
+        data-basepath=".."
+        data-revision="Thu Feb 18 2016 23:20:05 GMT-0600 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction &amp; Syllabus
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1" data-path="0_onboarding/welcome.html">
+            
+                
+                    <a href="../0_onboarding/welcome.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                        Welcome
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2" data-path="0_onboarding/holidays.html">
+            
+                
+                    <a href="../0_onboarding/holidays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                        Student Holidays
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3" data-path="0_onboarding/attendance_policy.html">
+            
+                
+                    <a href="../0_onboarding/attendance_policy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                        Attendance Policy
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4" data-path="0_onboarding/house_rules.html">
+            
+                
+                    <a href="../0_onboarding/house_rules.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                        House Rules
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.5" data-path="0_onboarding/homework_submission.html">
+            
+                
+                    <a href="../0_onboarding/homework_submission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.5.</b>
+                        
+                        Homework Submission
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.6" data-path="0_onboarding/class_library.html">
+            
+                
+                    <a href="../0_onboarding/class_library.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.6.</b>
+                        
+                        Class Library
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.7" data-path="0_onboarding/required_software.html">
+            
+                
+                    <a href="../0_onboarding/required_software.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.7.</b>
+                        
+                        Required Software
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.8" data-path="0_onboarding/course_outline.html">
+            
+                
+                    <a href="../0_onboarding/course_outline.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.8.</b>
+                        
+                        Course Outline
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.9" data-path="0_onboarding/schedule.html">
+            
+                
+                    <a href="../0_onboarding/schedule.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.9.</b>
+                        
+                        Weekly Schedule
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.10" data-path="0_onboarding/installfest.html">
+            
+                
+                    <a href="../0_onboarding/installfest.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.10.</b>
+                        
+                        InstallFest
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.11" data-path="0_onboarding/required_reading.html">
+            
+                
+                    <a href="../0_onboarding/required_reading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.11.</b>
+                        
+                        Required Reading
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.12" data-path="0_onboarding/dash.html">
+            
+                
+                    <a href="../0_onboarding/dash.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.12.</b>
+                        
+                        Dash
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="01_front_end_fundamentals/index.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Front End Fundamentals
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="01_front_end_fundamentals/d01.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Introduction
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="01_front_end_fundamentals/d01-mac-cheat-sheet.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01-mac-cheat-sheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.1.</b>
+                        
+                        Mac Cheat Sheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="01_front_end_fundamentals/d01-termina-cheat-sheet.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01-termina-cheat-sheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.2.</b>
+                        
+                        Terminal Cheat Sheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="0_onboarding/intro_to_osx.html">
+            
+                
+                    <a href="../0_onboarding/intro_to_osx.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.3.</b>
+                        
+                        Intro to OS X
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="0_onboarding/basic_terminal.html">
+            
+                
+                    <a href="../0_onboarding/basic_terminal.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.4.</b>
+                        
+                        Basic Terminal &amp; Navigating the Filesystem
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="01_front_end_fundamentals/d01_workhop_cli.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01_workhop_cli.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.5.</b>
+                        
+                        Workshop: Star Wars Command Line
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="0_onboarding/googleChromeShortcuts.html">
+            
+                
+                    <a href="../0_onboarding/googleChromeShortcuts.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.6.</b>
+                        
+                        Google Chrome Shortcuts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="01_front_end_fundamentals/chromeDevTools.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/chromeDevTools.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.7.</b>
+                        
+                        Chrome Dev Tools
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01_front_end_fundamentals/d02.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Introduction to Programming
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="01_front_end_fundamentals/d02-variables.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-variables.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.1.</b>
+                        
+                        Variables
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="01_front_end_fundamentals/d02-datatypes-examples.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-datatypes-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.2.</b>
+                        
+                        Data Types
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="01_front_end_fundamentals/d02-controlflow-examples.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-controlflow-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.3.</b>
+                        
+                        Control Flow
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="01_front_end_fundamentals/d02-stringconcat.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-stringconcat.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.4.</b>
+                        
+                        String Concatenation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="01_front_end_fundamentals/d02-arrays.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-arrays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.5.</b>
+                        
+                        Arrays
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="01_front_end_fundamentals/d02-loops.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-loops.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.6.</b>
+                        
+                        Loops
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="01_front_end_fundamentals/d02-syntax.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-syntax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.7.</b>
+                        
+                        Syntax
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="01_front_end_fundamentals/d02_functions.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02_functions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.8.</b>
+                        
+                        Functions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="01_front_end_fundamentals/ah_reading.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/ah_reading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.9.</b>
+                        
+                        Homework: Reading
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="01_front_end_fundamentals/d02-ah.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-ah.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.10.</b>
+                        
+                        Homework: Markdown and Readmes
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >WDI Chicago #4: Ravenclaw</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="12-lesson-examples-data-types">1.2 Lesson Examples: Data Types</h2>
+<h4 id="typeof">typeof()</h4>
+<p>To get an idea of the type of data we&apos;re working with, we can use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof" target="_blank"><code>typeof()</code></a>.  Let&apos;s try it out in the console with the following:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">typeof</span>(<span class="hljs-number">37</span>) === <span class="hljs-string">&apos;number&apos;</span>;
+=&gt; <span class="hljs-literal">true</span>
+
+<span class="hljs-keyword">typeof</span>({}) === <span class="hljs-string">&apos;object&apos;</span>;
+=&gt; <span class="hljs-literal">true</span>
+
+<span class="hljs-keyword">typeof</span>(<span class="hljs-string">&apos;hi there&apos;</span>) === <span class="hljs-string">&apos;string&apos;</span>;
+=&gt; <span class="hljs-literal">true</span>
+</code></pre>
+<p><code>typeof()</code> returns a string with the type of the operand, or expression of the object you&apos;re looking at.  </p>
+<h4 id="numbers">Numbers</h4>
+<p>In more low-level languages, numbers are divided into two classes or objects:</p>
+<ul>
+<li><p>Integers</p>
+<pre><code class="lang-javascript"> ..., -<span class="hljs-number">1</span>,<span class="hljs-number">0</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, ...
+</code></pre>
+</li>
+<li><p>Floats (or Decimal numbers)</p>
+<pre><code class="lang-javascript"> <span class="hljs-number">2.718</span>, <span class="hljs-number">3.14</span>, <span class="hljs-number">.5</span>, <span class="hljs-number">.25</span>, etc
+</code></pre>
+</li>
+</ul>
+<p>All numbers in JavaScript are <strong>&quot;double-precision 64-bit format IEEE 754 values&quot;</strong> - read this as &quot;There&apos;s really no such thing as an integer in JavaScript.&quot;  You have to be a little careful with your arithmetic if you&apos;re used to math in other programming languages. Let&apos;s take a look at what happens when we do this:</p>
+<pre><code class="lang-javascript"><span class="hljs-number">0.1</span> + <span class="hljs-number">0.2</span>
+=&gt; <span class="hljs-number">0.30000000000000004</span>
+</code></pre>
+<p>In JavaScript, these data points are the same <strong>type</strong> of object, which it calls <em>Numbers</em>, so if you know floats and integers do not go looking for them.</p>
+<h4 id="arithmetic-operators">Arithmetic Operators</h4>
+<p>Operators are used to work with data in JavaScript. The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#Arithmetic_operators" target="_blank">arithmetic operators</a> - that you&apos;ve been learning since grade school - are supported, including addition, subtraction, modulus (or remainder) arithmetic and so forth.  Check it out:</p>
+<pre><code class="lang-javascript"><span class="hljs-number">1</span> + <span class="hljs-number">2</span>
+=&gt; <span class="hljs-number">3</span>
+
+<span class="hljs-number">2</span> - <span class="hljs-number">5</span>
+=&gt; -<span class="hljs-number">3</span>
+
+<span class="hljs-number">5</span> / <span class="hljs-number">2</span>
+=&gt; <span class="hljs-number">2.5</span>
+
+<span class="hljs-number">6</span> * <span class="hljs-number">2</span>
+=&gt; <span class="hljs-number">12</span>
+</code></pre>
+<h4 id="special-number-operators">Special Number Operators</h4>
+<p>JavaScript can be a little cheap with the number of operations it allows you to do. For example, how is someone supposed to square a number or cube a number easily? Luckily there is a special <code>Math</code> object with some very useful methods.</p>
+<ul>
+<li>Taking a number to some <code>power</code>? Then just use <code>Math.pow</code></li>
+</ul>
+<pre><code class="lang-javascript"><span class="hljs-comment">// 3^2 becomes</span>
+<span class="hljs-built_in">Math</span>.pow(<span class="hljs-number">3</span>,<span class="hljs-number">2</span>)
+=&gt; <span class="hljs-number">4</span>
+<span class="hljs-comment">// 2^4 becomes</span>
+<span class="hljs-built_in">Math</span>.pow(<span class="hljs-number">2</span>,<span class="hljs-number">4</span>)
+=&gt; <span class="hljs-number">16</span>
+</code></pre>
+<ul>
+<li>Taking a square root</li>
+</ul>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x221A;(4) becomes</span>
+<span class="hljs-built_in">Math</span>.sqrt(<span class="hljs-number">4</span>)
+=&gt; <span class="hljs-number">2</span>
+</code></pre>
+<ul>
+<li>Need a <code>random</code> number? Then use <code>Math.random</code>.</li>
+</ul>
+<pre><code class="lang-javascript"><span class="hljs-comment">// The following only returns a random decimal</span>
+<span class="hljs-built_in">Math</span>.random()
+=&gt; <span class="hljs-number">.229375290430</span>
+<span class="hljs-comment">/**
+  The following will return a
+  random number between 0 and 10
+*/</span>
+<span class="hljs-built_in">Math</span>.random()*<span class="hljs-number">10</span>
+</code></pre>
+<ul>
+<li>Since Numbers can be <strong>Floats</strong> or <strong>Integers</strong> we often want to get rid of remaining decimal places, which can be done using <code>Math.floor</code>.</li>
+</ul>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Remove the decimal</span>
+<span class="hljs-built_in">Math</span>.floor(<span class="hljs-number">3.14</span>)
+=&gt; <span class="hljs-number">3</span>
+<span class="hljs-built_in">Math</span>.floor(<span class="hljs-number">3.9999</span>)
+=&gt; <span class="hljs-number">3</span>
+</code></pre>
+<h4 id="strings">Strings</h4>
+<p>Strings are collections of letters and symbols known as <em>characters</em>, and we use them to deal with words and text in JavaScript. Strings are just another type of <strong>value</strong> in Javascript.</p>
+<pre><code class="lang-javascript"><span class="hljs-string">&quot;John&quot;</span>
+<span class="hljs-string">&quot;Jane&quot;</span>
+<span class="hljs-string">&quot;123&quot;</span>
+</code></pre>
+<h4 id="string-helper-methods">String helper methods</h4>
+<p>To find the length of a string, access its <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length" target="_blank"><code>length</code></a> property:</p>
+<pre><code>&quot;hello&quot;.length;
+=&gt; 5
+</code></pre><p>There&apos;s our first brush with JavaScript objects! Did I mention that you can use strings like objects, too?</p>
+<p>Strings have other <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods" target="_blank">methods</a> as well that allow you to manipulate the string and access information about the string:</p>
+<pre><code>&quot;hello&quot;.charAt(0);
+=&gt; &quot;h&quot;
+
+&quot;hello, world&quot;.replace(&quot;hello&quot;, &quot;goodbye&quot;);
+=&gt; &quot;goodbye, world&quot;
+
+&quot;hello&quot;.toUpperCase();
+=&gt; &quot;HELLO&quot;
+</code></pre><p>Types of values like <code>Number</code> or <code>String</code> are not very useful without being able to form <strong>Expressions</strong> or <strong>Combinations</strong>.</p>
+<p>Try your favorite number operators as expressions:</p>
+<pre><code class="lang-javascript">  <span class="hljs-number">1</span> + <span class="hljs-number">1</span>
+  =&gt; <span class="hljs-number">2</span>
+  <span class="hljs-number">2</span> - <span class="hljs-number">1</span>
+  =&gt; <span class="hljs-number">1</span>
+</code></pre>
+<p>You can also create expressions with strings using addition:</p>
+<pre><code class="lang-javascript">  <span class="hljs-string">&quot;Hello, &quot;</span> + <span class="hljs-string">&quot;world!&quot;</span>
+  =&gt; <span class="hljs-string">&quot;Hello, world!&quot;</span>
+</code></pre>
+<p>This is called <strong>String Concatentation.</strong></p>
+<h4 id="converting-strings-to-integers-with-parseint-and-pasrefloat">Converting Strings to Integers with parseInt() and pasreFloat()</h4>
+<p>You can convert a string to an integer using the built-in <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt" target="_blank"><code>parseInt()</code></a> function. This takes the base for the conversion as an optional second argument, which you should always provide:</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">parseInt</span>(<span class="hljs-string">&quot;123&quot;</span>, <span class="hljs-number">10</span>);
+=&gt; <span class="hljs-number">123</span>
+
+<span class="hljs-built_in">parseInt</span>(<span class="hljs-string">&quot;010&quot;</span>, <span class="hljs-number">10</span>);
+=&gt; <span class="hljs-number">10</span>
+</code></pre>
+<p>This will be important later when we&apos;re taking user input from the web and using it on our server or in our browser to do some type of numeric calculation.</p>
+<p>Similarly, you can parse floating point numbers using the built-in <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat" target="_blank"><code>parseFloat()</code></a> function which uses base 10 always unlike its <code>parseInt()</code> cousin.</p>
+<pre><code>parseFloat(&quot;11.2&quot;);
+=&gt; 11.2
+</code></pre><p>You can also use the unary <code>+</code> operator to convert values to numbers:</p>
+<pre><code class="lang-javascript">+<span class="hljs-string">&quot;42&quot;</span>;
+=&gt; <span class="hljs-number">42</span>
+</code></pre>
+<h4 id="nan">NaN</h4>
+<p>The <code>parseInt()</code> and <code>parseFloat()</code> functions parse a string until they reach a character that isn&apos;t valid for the specified number format, then return the number parsed up to that point. However the &quot;+&quot; operator simply converts the string to <code>NaN</code> if there is any invalid character in it.</p>
+<p>A special value called <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN" target="_blank"><code>NaN</code></a> (short for &quot;Not a Number&quot;) is returned if the string is non-numeric:</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">parseInt</span>(<span class="hljs-string">&quot;hello&quot;</span>, <span class="hljs-number">10</span>);
+=&gt; <span class="hljs-literal">NaN</span>
+</code></pre>
+<p><strong><code>NaN</code> is toxic</strong>: if you provide it as an input to any mathematical operation the result will also be <code>NaN</code>:</p>
+<pre><code class="lang-javascript"><span class="hljs-literal">NaN</span> + <span class="hljs-number">5</span>;
+=&gt; <span class="hljs-literal">NaN</span>
+</code></pre>
+<p>You can test for <code>NaN</code> using the built-in <a href="ttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN" target="_blank"><code>isNaN()</code></a> function:</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">isNaN</span>(<span class="hljs-literal">NaN</span>);
+=&gt; <span class="hljs-literal">true</span>
+</code></pre>
+<p>JavaScript&apos;s numeric operators are <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code> and <code>%</code> and all work as you expect and should have practiced during your prework.</p>
+<h4 id="null-and-undefined">Null and Undefined</h4>
+<p>JavaScript distinguishes between:</p>
+<ul>
+<li><code>null</code> a value that indicates a deliberate non-value</li>
+<li><code>undefined</code> that indicates an uninitialized value &#x2014; that is, a value hasn&apos;t even been assigned yet</li>
+</ul>
+<p>The main note to make here is that these variables should always have the <code>var</code> keyword and use <code>camelCase</code></p>
+<h4 id="assignment-operators">Assignment Operators</h4>
+<p>Values are assigned using <code>=</code>, and there are also compound assignment statements such as <code>+=</code> and <code>-=</code>:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> x = <span class="hljs-number">1</span>;
+=&gt; <span class="hljs-number">1</span>
+
+x += <span class="hljs-number">5</span>
+=&gt; <span class="hljs-number">6</span>
+</code></pre>
+<p>You can use <code>++</code> and <code>--</code> to increment and decrement, respectively. These can be used as prefix or postfix operators.</p>
+<p>In Javascript we just discussed two types of values we can use. We call these values objects, which for now just means that in addition to storing some data you also get to use some helpful methods when you are working with them.</p>
+<ul>
+<li>If you want to turn a number into a string you can use a helpful method called <code>toString</code>.</li>
+</ul>
+<pre><code class="lang-javascript">(<span class="hljs-number">1</span>).toString()
+=&gt; <span class="hljs-string">&quot;1&quot;</span>
+<span class="hljs-comment">/**
+  be careful though,
+  since numbers can be floats
+  javascript might
+  misunderstand you.
+*/</span>
+<span class="hljs-number">1.</span>toString()
+=&gt; Float <span class="hljs-built_in">Error</span>
+<span class="hljs-comment">// but the following works</span>
+<span class="hljs-number">1.</span>.toString()
+</code></pre>
+<h2 id="arrays">Arrays</h2>
+<p>Unfortunately, strings and numbers are not enough for most programming purposes.
+What is needed are collections of data that we can use efficiently, Arrays.</p>
+<p>Arrays are great for:</p>
+<ul>
+<li>Storing data</li>
+<li>Enumerating data, i.e. using an index to find them</li>
+<li>Quickly reordering data</li>
+</ul>
+<p>Arrays, ultimately, are a data structure that is similar in concept to a list. Each item in an array is called an element, and the collection can contain data of the same or different types. In JavaScript, they can dynamically grow and shrink in size.</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> friends = [<span class="hljs-string">&apos;Moe&apos;</span>, <span class="hljs-string">&apos;Larry&apos;</span>, <span class="hljs-string">&apos;Curly&apos;</span>];
+=&gt; [<span class="hljs-string">&apos;Moe&apos;</span>, <span class="hljs-string">&apos;Larry&apos;</span>, <span class="hljs-string">&apos;Curly&apos;</span>]
+</code></pre>
+<p>Items in an array are stored in sequential order, and indexed starting at <code>0</code> and ending at <code>length - 1</code>.</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// First friend</span>
+<span class="hljs-keyword">var</span> firstFriend = friends[<span class="hljs-number">0</span>];
+ =&gt; <span class="hljs-string">&apos;Moe&apos;</span>
+<span class="hljs-comment">// Get the last friend</span>
+<span class="hljs-keyword">var</span> lastFriend = friends[<span class="hljs-number">2</span>]
+=&gt; <span class="hljs-string">&apos;Curly&apos;</span>
+</code></pre>
+<p>We can even use strings like arrays:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> friend = <span class="hljs-string">&quot;bobby bottleservice&quot;</span>;
+<span class="hljs-comment">// pick out first character</span>
+friend[<span class="hljs-number">0</span>]
+<span class="hljs-comment">//=&gt; &apos;b&apos;</span>
+friend.length
+</code></pre>
+<h2 id="working-with-arrays">Working with Arrays</h2>
+<p>Using the JavaScript Keyword <code>new</code>, is one way of creating arrays:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> a = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>();
+=&gt; <span class="hljs-literal">undefined</span>
+
+a[<span class="hljs-number">0</span>] = <span class="hljs-string">&quot;dog&quot;</span>;
+=&gt; <span class="hljs-string">&quot;dog&quot;</span>
+
+a[<span class="hljs-number">1</span>] = <span class="hljs-string">&quot;cat&quot;</span>;
+=&gt; <span class="hljs-string">&quot;cat&quot;</span>
+
+a[<span class="hljs-number">2</span>] = <span class="hljs-string">&quot;hen&quot;</span>;
+=&gt; <span class="hljs-string">&quot;hen&quot;</span>
+
+a
+=&gt; [<span class="hljs-string">&quot;dog&quot;</span>, <span class="hljs-string">&quot;cat&quot;</span>, <span class="hljs-string">&quot;hen&quot;</span>]
+
+a.length;
+=&gt; <span class="hljs-number">3</span>
+</code></pre>
+<p>A more convenient notation is to use an array literal:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> a = [<span class="hljs-string">&quot;dog&quot;</span>, <span class="hljs-string">&quot;cat&quot;</span>, <span class="hljs-string">&quot;hen&quot;</span>];
+
+a.length;
+=&gt; <span class="hljs-number">3</span>
+</code></pre>
+<h4 id="length-method">Length method</h4>
+<p>The <code>length</code> method works in an interesting way in Javascript. It is always one more than the highest index in the array.</p>
+<p>So <code>array.length</code> isn&apos;t necessarily the number of items in the array. Consider the following:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> a = [<span class="hljs-string">&quot;dog&quot;</span>, <span class="hljs-string">&quot;cat&quot;</span>, <span class="hljs-string">&quot;hen&quot;</span>];
+a[<span class="hljs-number">100</span>] = <span class="hljs-string">&quot;fox&quot;</span>;
+a.length; <span class="hljs-comment">// 101</span>
+</code></pre>
+<p><strong>Remember</strong>: the length of the array is one more than the highest index.</p>
+<h4 id="getting-data-from-an-array">Getting data from an array</h4>
+<p>If you query a non-existent array index, you get <code>undefined</code>:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> a = [<span class="hljs-string">&quot;dog&quot;</span>, <span class="hljs-string">&quot;cat&quot;</span>, <span class="hljs-string">&quot;hen&quot;</span>];
+=&gt; <span class="hljs-literal">undefined</span>
+
+<span class="hljs-keyword">typeof</span> a[<span class="hljs-number">90</span>];
+=&gt; <span class="hljs-literal">undefined</span>
+</code></pre>
+<p><br></p>
+<h4 id="array-helper-methods">Array helper methods</h4>
+<p>Arrays come with a number of methods. Here&apos;s a list of some popular helpers:</p>
+<blockquote>
+<p>Note: You might want to demonstrate a few of these.</p>
+</blockquote>
+<ul>
+<li><p><code>a.toString()</code> - Returns a string with the <code>toString()</code> of each element separated by commas.</p>
+</li>
+<li><p><code>a.pop()</code> - Removes and returns the last item.</p>
+</li>
+<li><p><code>a.push(item1, ..., itemN)</code> - <code>Push</code> adds one or more items to the end.</p>
+</li>
+<li><p><code>a.reverse()</code> - Reverse the array.</p>
+</li>
+<li><p><code>a.shift()</code> - Removes and returns the first item.</p>
+</li>
+<li><p><code>a.unshift([item])</code> - Prepends items to the start of the array.</p>
+</li>
+</ul>
+<p>Remember, though, you&apos;ll never remember <em>every</em> method.  Explore the the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank">full documentation for array methods</a> and other helper methods given to you for particular objects.</p>
+<h2 id="iterating-through-an-array">Iterating through an array</h2>
+<p>Iterating through the elements of an array, one at a time, is a very common practice in programming.</p>
+<p>We can use a <code>for</code> loop to iterate over the elements of an array like this:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> teams = [<span class="hljs-string">&apos;Bruins&apos;</span>, <span class="hljs-string">&apos;Cal Bears&apos;</span>, <span class="hljs-string">&apos;Ravens&apos;</span>, <span class="hljs-string">&apos;Ducks&apos;</span>];
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; teams.length; i++) {
+    <span class="hljs-built_in">console</span>.log(teams[i]);
+}
+</code></pre>
+<p>JavaScript arrays have several advanced <em>iterator methods</em>.</p>
+<p>Several of these methods require a function be supplied as an argument, and the code you write in the function will be applied to <em>each</em> item in the array, individually.</p>
+<p>As an example, lets look at the <code>forEach</code> method that we can use instead of a <code>for</code> loop to iterate the elements:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> teams = [<span class="hljs-string">&apos;Bruins&apos;</span>, <span class="hljs-string">&apos;Cal Bears&apos;</span>, <span class="hljs-string">&apos;Ravens&apos;</span>, <span class="hljs-string">&apos;Ducks&apos;</span>];
+teams.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">el</span>) </span>{
+    <span class="hljs-built_in">console</span>.log(el);
+});
+</code></pre>
+<p>This function would return:</p>
+<pre><code class="lang-javascript">Bruins
+Cal Bears
+Ravens
+Ducks
+<span class="hljs-literal">undefined</span>
+</code></pre>
+<p>Notice how much clearer this syntax is than that of the <code>for</code> loop?</p>
+<p>Here are some other iterator methods for you to research and practice with:</p>
+<ul>
+<li><code>Array.every()</code></li>
+<li><code>Array.some()</code></li>
+<li><code>Array.filter()</code></li>
+<li><code>Array.map()</code></li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../01_front_end_fundamentals/d02-variables.html" class="navigation navigation-prev " aria-label="Previous page: Variables"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../01_front_end_fundamentals/d02-controlflow-examples.html" class="navigation navigation-next " aria-label="Next page: Control Flow"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"toggle-chapters":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book WDI Chicago #4: Ravenclaw -->
+</html>
