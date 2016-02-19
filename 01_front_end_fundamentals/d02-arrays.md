@@ -13,10 +13,10 @@ We can access an array's items using **indices**. Arrays have a variety of metho
 ##Discussion
 
 ```javascript
-var myArray = ["Alex", "Andrew", "James"];
+var myArray = ["James", "Bill", "Jim"];
 myArray[0]; // this will return "Alex"
 // let's assign a new value to "James"
-myArray[2] = "Dragons";
+myArray[2] = "Ravenclaw";
 ```
 We also covered a lot of **methods** that each array has. Here are the methods we used.
 - **pop()** - removes and returns the the *last* item in the array.

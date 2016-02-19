@@ -1,0 +1,789 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book WDI Chicago #4: Ravenclaw -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Loops | WDI Chicago #4: Ravenclaw</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../01_front_end_fundamentals/d02-syntax.html" />
+    
+    
+    <link rel="prev" href="../01_front_end_fundamentals/d02-arrays.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="1.2.6"
+        data-chapter-title="Loops"
+        data-filepath="01_front_end_fundamentals/d02-loops.md"
+        data-basepath=".."
+        data-revision="Thu Feb 18 2016 23:20:05 GMT-0600 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction &amp; Syllabus
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1" data-path="0_onboarding/welcome.html">
+            
+                
+                    <a href="../0_onboarding/welcome.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                        Welcome
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2" data-path="0_onboarding/holidays.html">
+            
+                
+                    <a href="../0_onboarding/holidays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                        Student Holidays
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3" data-path="0_onboarding/attendance_policy.html">
+            
+                
+                    <a href="../0_onboarding/attendance_policy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                        Attendance Policy
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4" data-path="0_onboarding/house_rules.html">
+            
+                
+                    <a href="../0_onboarding/house_rules.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                        House Rules
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.5" data-path="0_onboarding/homework_submission.html">
+            
+                
+                    <a href="../0_onboarding/homework_submission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.5.</b>
+                        
+                        Homework Submission
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.6" data-path="0_onboarding/class_library.html">
+            
+                
+                    <a href="../0_onboarding/class_library.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.6.</b>
+                        
+                        Class Library
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.7" data-path="0_onboarding/required_software.html">
+            
+                
+                    <a href="../0_onboarding/required_software.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.7.</b>
+                        
+                        Required Software
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.8" data-path="0_onboarding/course_outline.html">
+            
+                
+                    <a href="../0_onboarding/course_outline.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.8.</b>
+                        
+                        Course Outline
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.9" data-path="0_onboarding/schedule.html">
+            
+                
+                    <a href="../0_onboarding/schedule.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.9.</b>
+                        
+                        Weekly Schedule
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.10" data-path="0_onboarding/installfest.html">
+            
+                
+                    <a href="../0_onboarding/installfest.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.10.</b>
+                        
+                        InstallFest
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.11" data-path="0_onboarding/required_reading.html">
+            
+                
+                    <a href="../0_onboarding/required_reading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.11.</b>
+                        
+                        Required Reading
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.12" data-path="0_onboarding/dash.html">
+            
+                
+                    <a href="../0_onboarding/dash.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.12.</b>
+                        
+                        Dash
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="01_front_end_fundamentals/index.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Front End Fundamentals
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="01_front_end_fundamentals/d01.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Introduction
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="01_front_end_fundamentals/d01-mac-cheat-sheet.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01-mac-cheat-sheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.1.</b>
+                        
+                        Mac Cheat Sheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="01_front_end_fundamentals/d01-termina-cheat-sheet.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01-termina-cheat-sheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.2.</b>
+                        
+                        Terminal Cheat Sheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="0_onboarding/intro_to_osx.html">
+            
+                
+                    <a href="../0_onboarding/intro_to_osx.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.3.</b>
+                        
+                        Intro to OS X
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="0_onboarding/basic_terminal.html">
+            
+                
+                    <a href="../0_onboarding/basic_terminal.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.4.</b>
+                        
+                        Basic Terminal &amp; Navigating the Filesystem
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="01_front_end_fundamentals/d01_workhop_cli.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01_workhop_cli.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.5.</b>
+                        
+                        Workshop: Star Wars Command Line
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="0_onboarding/googleChromeShortcuts.html">
+            
+                
+                    <a href="../0_onboarding/googleChromeShortcuts.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.6.</b>
+                        
+                        Google Chrome Shortcuts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="01_front_end_fundamentals/chromeDevTools.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/chromeDevTools.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.7.</b>
+                        
+                        Chrome Dev Tools
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01_front_end_fundamentals/d02.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Introduction to Programming
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="01_front_end_fundamentals/d02-variables.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-variables.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.1.</b>
+                        
+                        Variables
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="01_front_end_fundamentals/d02-datatypes-examples.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-datatypes-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.2.</b>
+                        
+                        Data Types
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="01_front_end_fundamentals/d02-controlflow-examples.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-controlflow-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.3.</b>
+                        
+                        Control Flow
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="01_front_end_fundamentals/d02-stringconcat.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-stringconcat.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.4.</b>
+                        
+                        String Concatenation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="01_front_end_fundamentals/d02-arrays.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-arrays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.5.</b>
+                        
+                        Arrays
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="01_front_end_fundamentals/d02-loops.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-loops.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.6.</b>
+                        
+                        Loops
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="01_front_end_fundamentals/d02-syntax.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-syntax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.7.</b>
+                        
+                        Syntax
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="01_front_end_fundamentals/d02_functions.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02_functions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.8.</b>
+                        
+                        Functions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="01_front_end_fundamentals/ah_reading.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/ah_reading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.9.</b>
+                        
+                        Homework: Reading
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="01_front_end_fundamentals/d02-ah.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-ah.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.10.</b>
+                        
+                        Homework: Markdown and Readmes
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >WDI Chicago #4: Ravenclaw</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <hr>
+<p><strong>Javascript</strong></p>
+<h3 id="loops">Loops</h3>
+
+<hr>
+<h2 id="summary">Summary</h2>
+<p>We covered three types of loops: <code>for</code>, <code>while</code>, and <code>for-in</code>. The following example loops through a <strong>kitties</strong> array and then logs each item.</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> kitties = [
+  <span class="hljs-string">&quot;magda&quot;</span>,
+  <span class="hljs-string">&quot;grumpy cat&quot;</span>,
+  <span class="hljs-string">&quot;pi&quot;</span>,
+  <span class="hljs-string">&quot;roscoe&quot;</span>,
+  <span class="hljs-string">&quot;adventure kitty&quot;</span>
+];
+</code></pre>
+<p>Each loop below does nearly the exact same thing.</p>
+<ul>
+<li>A <code>for</code> loop should be used when you <strong>know how you want to control</strong> your loop. You have complete control over the condition.<pre><code class="lang-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; kitties.length; i++) {
+  <span class="hljs-built_in">console</span>.log(kitties[i]);
+}
+</code></pre>
+</li>
+<li>A <code>for-in</code> loop will allow you to iterate and access every item in your array but may or may not return everything in the appropriate order. If you need to access all items without concern for order, you should use a <code>for-in</code> loop.<pre><code class="lang-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> cat <span class="hljs-keyword">in</span> kitties) {
+  <span class="hljs-built_in">console</span>.log(kitties[cat]);
+}
+</code></pre>
+</li>
+<li>A <code>while</code> loop is designed to allow you to <strong>do</strong> something without knowing how long it could occur. Remember the <em>b</em> button for Mario running example?<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>;
+<span class="hljs-keyword">while</span> (i &lt; kitties.length) {
+  <span class="hljs-built_in">console</span>.log(kitties[i]);
+  i++;
+}
+</code></pre>
+</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<p><strong>Javascript</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// FIRST, let us create our object</span>
+<span class="hljs-keyword">var</span> myObj = {
+  name: <span class="hljs-string">&quot;James&quot;</span>,
+  students: [
+    <span class="hljs-string">&apos;Jason&apos;</span>, <span class="hljs-string">&apos;Paul&apos;</span>, <span class="hljs-string">&apos;Ruth&apos;</span>, <span class="hljs-string">&apos;Katie&apos;</span>],
+  food: <span class="hljs-string">&apos;soylent&apos;</span>,
+  favouriteMusic: <span class="hljs-string">&apos;indie pop&apos;</span>,
+  favouriteAnimal: <span class="hljs-string">&apos;cat&apos;</span>,
+  colour: <span class="hljs-string">&apos;purple&apos;</span>,
+  phone: <span class="hljs-string">&apos;HTC&apos;</span>,
+  money: <span class="hljs-string">&apos;none, I am broke&apos;</span>,
+  isTired: <span class="hljs-literal">false</span>,
+  isAwake: <span class="hljs-literal">false</span>
+};
+
+<span class="hljs-comment">// for-in loop on an object</span>
+<span class="hljs-comment">// the goal is to log out all values in keys</span>
+
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;Logging keys then values using for-in loop:&quot;</span>);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;---------------------------------&quot;</span>);
+
+
+<span class="hljs-comment">// var key = index</span>
+<span class="hljs-comment">// myObj = object</span>
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> key <span class="hljs-keyword">in</span> myObj) {
+
+  <span class="hljs-comment">// log the key only</span>
+  <span class="hljs-comment">// ie: myObj.name</span>
+  <span class="hljs-comment">// &quot;name&quot; is the key</span>
+
+  <span class="hljs-built_in">console</span>.log(key);
+
+  <span class="hljs-comment">// only logging my values per each</span>
+  <span class="hljs-comment">// myObj.key</span>
+  <span class="hljs-comment">// or myObj[key]</span>
+
+  <span class="hljs-built_in">console</span>.log(myObj[key]);
+
+}
+
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;Only logging keys using for loop:&quot;</span>);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;---------------------------------&quot;</span>);
+<span class="hljs-comment">// create an array of my keys</span>
+<span class="hljs-comment">// Object.keys() returns an array of all</span>
+<span class="hljs-comment">// keys in an Object</span>
+<span class="hljs-keyword">var</span> myKeys = <span class="hljs-built_in">Object</span>.keys(myObj);
+
+<span class="hljs-comment">// now, we will just do a for loop</span>
+<span class="hljs-comment">// for each key to be printed out</span>
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> counter = <span class="hljs-number">0</span>; counter &lt; myKeys.length; counter++) {
+
+  <span class="hljs-built_in">console</span>.log(myKeys[counter]);
+
+}
+
+
+<span class="hljs-comment">// for-in loop on an object</span>
+<span class="hljs-comment">// log the key : value on same line</span>
+
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;Logging keys : values using for-in loop:&quot;</span>);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;---------------------------------&quot;</span>);
+
+
+<span class="hljs-comment">// var key = index</span>
+<span class="hljs-comment">// myObj = object</span>
+<span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> key <span class="hljs-keyword">in</span> myObj) {
+
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;Key: &quot;</span> + key + <span class="hljs-string">&quot;, Value: &quot;</span> + myObj[key]);
+
+}
+</code></pre>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration" target="_blank">MDN: Loops and Iteration</a></li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../01_front_end_fundamentals/d02-arrays.html" class="navigation navigation-prev " aria-label="Previous page: Arrays"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../01_front_end_fundamentals/d02-syntax.html" class="navigation navigation-next " aria-label="Next page: Syntax"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"toggle-chapters":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book WDI Chicago #4: Ravenclaw -->
+</html>
