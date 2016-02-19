@@ -18,3 +18,4 @@
     * [Intro to OS X](0_onboarding/intro_to_osx.md)
     * [Basic Terminal & Navigating the Filesystem](0_onboarding/basic_terminal.md)
     * [Workshop: Star Wars Command Line](01_front_end_fundamentals/d01_workhop_cli.md)
+    * [Basic Overview of JavaScript Objects](0_onboarding/js_objects.md)
