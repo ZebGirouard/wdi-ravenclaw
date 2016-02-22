@@ -34,6 +34,7 @@
     * [Homework: Markdown and Readmes](01_front_end_fundamentals/d02-ah.md)
   * [Functions, Logic, Loops, & Objects](01_front_end_fundamentals/d03.md)
     * [Functions](01_front_end_fundamentals/d03_functions_reps.md)
+    * [User Input](01_front_end_fundamentals/d03_user_input.md)
     * [Logic](01_front_end_fundamentals/d03_logic_reps.md)
     * [Loops](01_front_end_fundamentals/d03_loops_reps.md)
     * [Objects](01_front_end_fundamentals/d03_objects_reps.md)
