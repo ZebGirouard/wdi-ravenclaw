@@ -106,3 +106,72 @@ Can you predict how the following expressions will be evaluated? Check your answ
 One of the most common use cases of this is when you're not sure if a variable has been assigned a value. Suppose that `x` represents some input that you've gotten from a user. If the user hasn't given any input, `x` might be `null`.
 
 To compensate for this, we might write the expression `x = x || 10;`. If x has some 'truthy' value, the OR operator will evaluate to `x`, so it would be as if we wrote `x = x`. However, if x were `null`, the OR operator would evaluate to 10 (because `null` is 'falsey'). It's as if we've said "If x doesn't already have a value assigned, set it equal to 10". For that reason, this kind of operation is often called 'conditional assignment'.
+
+
+#### In-Class Examples
+
+```javascript
+// let us play truth or false
+// this is a silly spin on truth or dare
+
+// false: falsey
+if (false === false) {
+  console.log('false is falsey');
+} else {
+  console.log('false is truthy');
+}
+
+// 0: ???
+if (0) {
+  console.log('0 is true');
+} else {
+  console.log('0 is false');
+}
+// true: ???
+if (true) {
+  console.log('true is true');
+} else {
+  console.log('true is false');
+}
+// any number except 0: ???
+if (42) {
+  console.log('42 is true');
+} else {
+  console.log('42 is false');
+}
+// any empty string: ??? - ex: ''
+if ("") {
+  console.log('empty string is true');
+} else {
+  console.log('empty string is false');
+}
+// any non-empty string: ???
+if ("sadf;lasljasdljflasd") {
+  console.log('string is true');
+} else {
+  console.log('string is false');
+}
+// undefined: ???
+if (undefined) {
+  console.log('undefined is true');
+} else {
+  console.log('undefined is false');
+}
+
+var commitFromLastNight; // undefined
+var tolerance = null;
+
+// null: ???
+if (null) {
+  console.log('null is true');
+} else {
+  console.log('null is false');
+}
+
+// NaN: ???
+if (NaN) {
+  console.log('NaN is true');
+} else {
+  console.log('NaN is false');
+}
+```

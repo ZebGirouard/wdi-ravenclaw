@@ -34,6 +34,6 @@
     * [Homework: Markdown and Readmes](01_front_end_fundamentals/d02-ah.md)
   * [Functions, Logic, Loops, & Objects](01_front_end_fundamentals/d03.md)
     * [Functions](01_front_end_fundamentals/d03_functions_reps.md)
+    * [Anonymous vs Named Functions](01_front_end_fundamentals/anon_named_func.md)
     * [Logic](01_front_end_fundamentals/d03_logic_reps.md)
-    * [Loops](01_front_end_fundamentals/d03_loops_reps.md)
-    * [Objects](01_front_end_fundamentals/d03_objects_reps.md)
+    * [Lab/Homework](01_front_end_fundamentals/d03_workshop.md)
