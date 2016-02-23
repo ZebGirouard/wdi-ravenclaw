@@ -6,7 +6,7 @@ ___
 ---
 
 
-##Summary
+## Summary
 
 Below is a sample HTML page with a canvas element that will draw a rectangle.
 ```html
