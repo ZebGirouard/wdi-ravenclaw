@@ -27,6 +27,7 @@
     * [Control Flow](01_front_end_fundamentals/d02-controlflow-examples.md)
     * [String Concatenation](01_front_end_fundamentals/d02-stringconcat.md)
     * [Arrays](01_front_end_fundamentals/d02-arrays.md)
+      * [Advanced Arrays](01_front_end_fundamentals/advanced-arrays.md)
     * [Loops](01_front_end_fundamentals/d02-loops.md)
     * [Syntax](01_front_end_fundamentals/d02-syntax.md)
     * [Functions](01_front_end_fundamentals/d02_functions.md)
