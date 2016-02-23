@@ -8,7 +8,7 @@ ___
 
 ##Summary
 
-We covered three types of loops: `for`, `while`, and `for-in`. The following example loops through a **kitties** array and then logs each item.
+We covered four types of loops: `for`, `while`, `forEach` and `for-in`. The following example loops through a **kitties** array and then logs each item.
 ```javascript
 var kitties = [
   "magda",
@@ -38,6 +38,12 @@ while (i < kitties.length) {
 	console.log(kitties[i]);
 	i++;
 }
+```
+- A `forEach` loop will iterate over all of the items in your array automatically. You don't need to track indexes or set counters with `forEach`. It's built into every JavaScript array.
+```
+kitties.forEach(function(kitten) {
+  console.log(kitten);
+});
 ```
 
 ##Examples
