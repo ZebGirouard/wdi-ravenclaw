@@ -43,3 +43,7 @@
     * [The DOM](01_front_end_fundamentals/d04-dom.md)
     * [Converting Pixels to EM](01_front_end_fundamentals/d04-em-to-px.md)
     * [Implementing Loops Lab](01_front_end_fundamentals/d03_implent_loops.md)
+    * [Introducing Modern HTML/CSS](01_front_end_fundamentals/d03_modern_html_css.md)
+  * [Drawing on the Web](01_front_end_fundamentals/d04.md)
+    * [DOM Selectors](01_front_end_fundamentals/d04_selectors.md)
+    * [Canvas](01_front_end_fundamentals/d04-canvas.md)
