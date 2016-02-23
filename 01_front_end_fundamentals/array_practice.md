@@ -1,4 +1,4 @@
-## Array Practice
+## Array & Loops Practice
 
 Create a new file in your `/code/homework/your_name` folder called `array_practice.js`. You will perform all of your code inside of here. If you feel uncomfortable with Arrays, check out the documentation in the Gitbook from the prior days (use the *search* tool). Alternatively if you are a visual learner, [here is a great video](https://www.youtube.com/watch?v=wLfVs0shOqA).
 
