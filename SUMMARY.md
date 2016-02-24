@@ -47,5 +47,6 @@
     * [Introducing Modern HTML/CSS](01_front_end_fundamentals/d03_modern_html_css.md)
     * [Bonus Work: Arrays/Loops](01_front_end_fundamentals/array_practice.md)
   * [Drawing on the Web](01_front_end_fundamentals/d04.md)
+    * [Morning Exercise](01_front_end_fundamentals/wed_me.md)
     * [DOM Selectors](01_front_end_fundamentals/d04_selectors.md)
     * [Canvas](01_front_end_fundamentals/d04-canvas.md)
