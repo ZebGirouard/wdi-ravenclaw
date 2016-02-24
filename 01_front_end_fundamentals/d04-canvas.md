@@ -4,6 +4,10 @@ ___
 <h3>Canvas</h3>
 
 ---
+## HomeWork
+*  Create two functions one that accepts 4 arguments that pertain to the css attributes(element, backgroundColor, width, height) and 3 other arguments of your choice. Then append these two the dom.
+* try to finish the random Color function.
+* http://jsforcats.com/
 
 
 ## Summary
