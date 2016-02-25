@@ -50,3 +50,6 @@
     * [Morning Exercise](01_front_end_fundamentals/wed_me.md)
     * [DOM Selectors](01_front_end_fundamentals/d04_selectors.md)
     * [Canvas](01_front_end_fundamentals/d04-canvas.md)
+  * [Functions, Objects, and Recap](01_front_end_fundamentals/d06.md)
+    * [Functions Recap](01_front_end_fundamentals/d06_functions.md)
+    * [Homework](01_front_end_fundamentals/d06_hw.md)
