@@ -6,7 +6,7 @@
 // write a function square(x) that returns the argument passed multiplied by itself
 // then write the functions cube(x), x times x times x,
 // and quad(x), x times x times x times x, using the function square(x)
-// verify that square(2) === 4, cube(3) === 27, and that quad(4) === 64
+// verify that square(2) === 4, cube(3) === 27, and that quad(4) === 256
 
 /* your code starts here */
 
