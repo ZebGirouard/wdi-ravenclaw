@@ -53,3 +53,7 @@
   * [Functions, Objects, and Recap](01_front_end_fundamentals/d06.md)
     * [Functions Recap](01_front_end_fundamentals/d06_functions.md)
     * [Homework](01_front_end_fundamentals/d06_hw.md)
+  * [Second Pass Friday](01_front_end_fundamentals/d07.md)
+    * [Q & A](01_front_end_fundamentals/d07_qa.md)
+    * [Weekend Practice](01_front_end_fundamentals/d05-ah.md)
+    * [Bonus Weekend Practice](01_front_end_fundamentals/d05-ah-bonus.md)
