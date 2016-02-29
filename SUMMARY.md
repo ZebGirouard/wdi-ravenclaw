@@ -57,3 +57,7 @@
     * [Q & A](01_front_end_fundamentals/d07_qa.md)
     * [Weekend Practice](01_front_end_fundamentals/d05-ah.md)
     * [Bonus Weekend Practice](01_front_end_fundamentals/d05-ah-bonus.md)
+* [Intermediate Front-end](02_intermediate_front_end/intro.md)
+  * [Web Typography](02_intermediate_front_end/web-type.md)
+  * [Box Model and Positioning](02_intermediate_front_end/positioning.md)
+  * [Flexbox and CSS Grid Systems](02_intermediate_front_end/grids.md)
