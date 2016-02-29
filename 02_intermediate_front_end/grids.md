@@ -43,3 +43,7 @@ Most grids utilize 12 columns. The idea is that each item within a row takes up 
 Flexbox grids are easier. The idea is that you have a container and items. Each item gets automatically positioned within the container without the need for floats or percentage widths for responsive sites.
 
 __[See this better guide to Flexbox than any of us could write for more](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)__
+
+## Homework
+
+[Create these 5 grids using CSS and HTML](http://ga-chicago.github.io/css_layouts.pdf)
