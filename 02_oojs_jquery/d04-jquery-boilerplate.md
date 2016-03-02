@@ -1,5 +1,7 @@
 ## jQuery Boilerplate
 
+* https://github.com/ga-chicag-/jQueryBoilerplate
+
 ```html
 <!DOCTYPE html>
 <html>
