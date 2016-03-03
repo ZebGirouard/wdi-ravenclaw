@@ -86,3 +86,4 @@
     * [Ajax in Depth](02_oojs_jquery/d01_ajax_in_depth.md)
     * [APIs to Play With](02_oojs_jquery/d01_apis.md)
     * [getJSON Lab](02_oojs_jquery/ajax-getjson-lab.md)
+    * [Ajax Examples](02_oojs_jquery/ajax-examples.md)
