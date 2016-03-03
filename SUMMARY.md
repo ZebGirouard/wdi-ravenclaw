@@ -84,6 +84,6 @@
     * [Constructors and JS Objects](02_oojs_jquery/constructor-sample-code.md)
     * [What is JSON?](02_oojs_jquery/ajax-json.md)
     * [Ajax in Depth](02_oojs_jquery/d01_ajax_in_depth.md)
-    * [APIs to Play With](02_oojs_jquery/d01_apis.md)
     * [getJSON Lab](02_oojs_jquery/ajax-getjson-lab.md)
     * [Ajax Examples](02_oojs_jquery/ajax-examples.md)
+    * [APIs to Play With](02_oojs_jquery/d01_apis.md)
