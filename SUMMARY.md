@@ -81,4 +81,5 @@
     * [Practice: Try jQuery](02_oojs_jquery/jquery_cs.md)
     * [jQuery Videos!](02_oojs_jquery/d04_videos.md)
   * [Ajax](03_advanced_front_end/d01_ajax.md)
+    * [Constructors and JS Objects](02_oojs_jquery/constructor-sample-code.md)
     * [Ajax in Depth](03_advanced_front_end/d01_ajax_in_depth.md)
