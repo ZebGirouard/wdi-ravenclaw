@@ -88,3 +88,7 @@
     * [Ajax Examples](02_oojs_jquery/ajax-examples.md)
     * [APIs to Play With](02_oojs_jquery/d01_apis.md)
   * [Second Pass Friday](02_oojs_jquery/friday.md)
+    * [Movie Carousel Example](02_oojs_jquery/movie_carousel.md)
+    * [Homework: Fellowship of the Ring](02_oojs_jquery/d05_fellowship.md)
+    * [Bonus Homework: Ajax](02_oojs_jquery/d05_bootflix_ajax.md)
+    * [Videos](02_oojs_jquery/d05_videos.md)
