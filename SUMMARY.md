@@ -87,3 +87,4 @@
     * [getJSON Lab](02_oojs_jquery/ajax-getjson-lab.md)
     * [Ajax Examples](02_oojs_jquery/ajax-examples.md)
     * [APIs to Play With](02_oojs_jquery/d01_apis.md)
+  * [Second Pass Friday](02_oojs_jquery/friday.md)
