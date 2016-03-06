@@ -38,6 +38,12 @@ Most grids utilize 12 columns. The idea is that each item within a row takes up 
 /* and more grid classes here */
 ```
 
+<img src="grid-diagram.png" alt="Grid Diagram" />
+<small>Shown Above: Grid diagram (extra padding added between container, row, and column blocks for clarity)</small>
+
+<img src="grid-on-page.jpg" alt="Grids in use" />
+<small>Shown Above: Example of a grid system being used on an actual web page</small>
+
 ## Flexbox
 
 Flexbox grids are easier. The idea is that you have a container and items. Each item gets automatically positioned within the container without the need for floats or percentage widths for responsive sites.
