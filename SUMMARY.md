@@ -92,3 +92,5 @@
     * [Homework: Fellowship of the Ring](02_oojs_jquery/d05_fellowship.md)
     * [Bonus Homework: Ajax](02_oojs_jquery/d05_bootflix_ajax.md)
     * [Videos](02_oojs_jquery/d05_videos.md)
+  * [First Project: Week 4](04_frontend_project/README.md)
+    * [Responsive CSS](04_frontend_project/responsive-design.md)
