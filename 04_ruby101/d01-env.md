@@ -1,6 +1,6 @@
-## 4.1 Setting Up a Development Environment
+## Setting Up a Development Environment
 
-Before we get started, we need to all be on the same page! That means we need to have the same version of Ruby as well as the same tools. Let's do that! 
+Before we get started, we need to all be on the same page! That means we need to have the same version of Ruby as well as the same tools. Let's do that!
 
 1. Install `rbenv`, a Ruby environment manager: `brew install rbenv`
 2. Now, have `rbenv` install Ruby version 2.2.0: `rbenv install 2.2.0`

@@ -1,4 +1,4 @@
-## 4.1 Loops
+## Loops
 
 #### While Loop
 

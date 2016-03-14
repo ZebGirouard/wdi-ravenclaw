@@ -1,4 +1,4 @@
-## 4.1 Video
+## Video
 
 #### Introduction to Ruby with pry
 

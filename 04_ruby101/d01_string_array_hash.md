@@ -1,4 +1,4 @@
-## 4.1 Strings, Arrays, & Hashes
+## Strings, Arrays, & Hashes
 
 ## String
 ```ruby

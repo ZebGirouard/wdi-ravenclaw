@@ -1,4 +1,4 @@
-## 4.1 Methods
+## Methods
 
 ```ruby
 def yolo

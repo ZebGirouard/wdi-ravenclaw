@@ -1,4 +1,4 @@
-## 4.1 Front End Recap Quiz
+## Front End Recap Quiz
 
 1. List all traditional data types in Javascript.
 2. Objects are what type of storage? They use ___:___. Explain how this works.

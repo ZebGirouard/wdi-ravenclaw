@@ -1,5 +1,5 @@
 
-## 4.1 Conditionals
+## Conditionals
 
 * if/elsif/else/end
 * unless

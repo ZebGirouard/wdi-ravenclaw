@@ -1,4 +1,4 @@
-## 4.1 Detecting Ruby Types
+## Detecting Ruby Types
 
 ```ruby
 #!/usr/bin/ruby

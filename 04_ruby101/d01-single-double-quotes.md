@@ -1,4 +1,4 @@
-## 4.1 Single Quotes vs Double Quotes
+## Single Quotes vs Double Quotes
 
 
 #### String Interpolation

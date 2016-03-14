@@ -1,6 +1,6 @@
 
 
-## 4.1 Ruby Practice - REPS (RUPS 2.0)!
+## Homework: Revenge of the Reps!
 
 
 ### Learning Objectives... or rather... REPS!!!!

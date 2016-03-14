@@ -1,4 +1,4 @@
-## 4.1 Enumeration
+## Enumeration
 
 #### .each
 
