@@ -24,6 +24,20 @@ An example of this is easy. Load just about any website in a browser. Then chang
 
 Responsive CSS with media queries is available in CSS3 but the great news is that it is __very__ widely supported and you should have no need to worry about browser support for media queries.
 
+## Meta viewport setting
+
+If you're designing a responsive website then you must be sure to include a meta tag in the `<head`> of your HTML page that defines the viewport. This will make it so that users on mobile devices won't load the page all weird and zoomed in when they first browse to your site. Include this code in your `<head>` tag of your HTML pages:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+__Resources:__
+
+- [More information about the viewport meta tag here](https://css-tricks.com/snippets/html/responsive-meta-tag/)
+- [Examples of badly set viewport meta tag (pay attention mostly to the images)](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)
+
+
 ## Media Queries
 
 Media queries are CSS code you load *last* in your CSS files. They can target a type of screen, device, or even paper (for printing) and they can also target mininum and maximum screen sizes (at the same time). Here's an example:
@@ -80,3 +94,10 @@ There are [others who](http://www.html5rocks.com/en/mobile/responsivedesign/) ca
 ## Activity / Lab / Practice
 
 Make your personal profile page (your GitHub pages page) responsive! This isn't homework, it's practice.
+
+## RESOURCES
+
+- [Responsive ("viewport") meta tag info](https://css-tricks.com/snippets/html/responsive-meta-tag/)
+- [Media Query examples for standard and popular devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+- [The MDN explanation of media query syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [Web development boilerplate that incorporates all responsive best practices](https://github.com/billpatrianakos/fractionless-boilerplate/tree/master/src)
