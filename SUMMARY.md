@@ -120,5 +120,7 @@
     * [Methods, Again](04_ruby101/d02_methods.md)
     * [Classes](04_ruby101/d02_classes_in_ruby.md)
     * [Classes in Depth](04_ruby101/d02_classes_02.md)
+    * [Sinatra's Songs Exercise](04_ruby101/d02_sinatrassongs.md)
+    * [Requiring & Using Files/Gems](04_ruby101/d02_require_files_gems.md)
     * [Inheritance](04_ruby101/d02_inheritance_classes.md)
     * [Homework: Classes](04_ruby101/d02-hw.md)
