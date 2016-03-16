@@ -1,6 +1,6 @@
-## 4.2 Enumeration, Again
+## .each, Again
 
-Below are the examples used in class:
+Below are more examples of `.each`:
 
 ```ruby
 who_was_sleepy = ['anna', 'nick', 'ruth', 'lidia', 'everyone']

@@ -1,4 +1,4 @@
-## 4.2 Methods (and the `*SPLAT!` argument)
+## Methods (and the `*SPLAT!` argument)
 
 Below are the examples built in class:
 

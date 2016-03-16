@@ -1,4 +1,4 @@
-## 4.2 Stephen's Class Notes
+## Classes in Depth
 
 #### Accessors
 

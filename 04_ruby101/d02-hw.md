@@ -1,4 +1,4 @@
-## 4.2 Homework - Class Reps
+## Homework - Class Reps
 
 Tonight we're going to have you repeatedly build classes over and over. The primary goal is for you to become familiar with building classes. We're going to take what you have learned to build a few amazing utilities that you can use once we build servers tomorrow!
 

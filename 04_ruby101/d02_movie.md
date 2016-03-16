@@ -1,4 +1,4 @@
-## 4.2 The Movie Object
+## The Movie Object
 
 Below is the Movie object we built today in class prior to learning how to use Classes.
 

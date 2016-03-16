@@ -1,4 +1,4 @@
-## 4.2 Rups Recap
+## Rups Recap
 
 Below are various examples of how to solve the Rups homework from last night.
 

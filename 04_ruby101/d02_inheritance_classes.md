@@ -1,4 +1,4 @@
-## 4.2 Inheritance via Classes
+## Inheritance via Classes
 
 ```ruby
 #inheritance through space ships!

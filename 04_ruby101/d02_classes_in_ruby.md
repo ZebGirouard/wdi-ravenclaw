@@ -1,4 +1,4 @@
-## 4.2 Classes in Ruby
+## Classes in Ruby
 
 ## Scope
 
