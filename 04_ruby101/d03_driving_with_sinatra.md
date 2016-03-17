@@ -1,4 +1,4 @@
-## 4.3 Driving with Sinatra
+## Driving with Sinatra
 
 Pair Programming by building a Sinatra Server
 

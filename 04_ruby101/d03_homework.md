@@ -1,8 +1,8 @@
-## 4.3 Homework: MOAR SERVERS!@!@!@1212
+## Homework: MOAR SERVERS!@!@!@1212
 
 **MOAR SERVERS**
 
-1. It is time to build the cutest server ever - the `small_animals` server! Place this in a new folder in `05_ruby101/your_name/` called `small_animals`
+1. It is time to build the cutest server ever - the `small_animals` server! Place this in a new folder in `04_ruby101/your_name/` called `small_animals`
 2. Create a brand new, small Sinatra app. Check out the *Simplest Sinatra app, ever* above for guidance.
 3. Write a **simple** Sinatra app with a `Gemfile`, `config.ru`, and `app.rb`
 4. Inside of your `app.rb`, you need to create a few routes...

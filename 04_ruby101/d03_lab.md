@@ -1,4 +1,4 @@
-## 4.3: Sinatra (on your own)
+## Sinatra (on your own)
 
 * It is time to create another Sinatra application. This time, you're going to create a new **git repository** on Github.
 * Clone it down to `~/dragons`.

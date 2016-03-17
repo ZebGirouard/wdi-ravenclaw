@@ -1,4 +1,4 @@
-## 4.3 ERB
+## ERB
 
 ERB stands for **embedded Ruby**.
 

@@ -1,5 +1,5 @@
 
-## 4.3 Ruby: Our First Web server with Sinatra
+## Ruby: Our First Web server with Sinatra
 
 
 ##Agenda
