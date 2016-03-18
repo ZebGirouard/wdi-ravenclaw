@@ -1,6 +1,6 @@
-## 4.4 - Sinatra, Again
+## Sinatra, Again
 
-We built a Sinatra API that can be viewed online!
+Let's build a Sinatra API that can be viewed online!
 
 #### Source
 

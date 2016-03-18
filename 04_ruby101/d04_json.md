@@ -1,4 +1,4 @@
-## 4.4 JSON
+## JSON, Again
 
 JSON stands for **Javascript Object Notation**. It is a string version of a Javascript Object. Hashes in Ruby can easily be converted to JSON. In turn, this JSON can be used by an AJAX call on the client (Javascript) side.
 
