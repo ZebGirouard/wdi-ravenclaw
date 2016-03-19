@@ -92,28 +92,77 @@ p gordon_gecko
 ```
 
 
-#### Variables
+## Variables
 
-* **local** —> lives within the space it is declared in
-* **$global** —> can be accessed from anywhere
+Variables are named placeholders for storing values. They work the same way they do in JavaScript except you do not need to use the `var` keyword to define a variable the first time you create or assign a value to it.
+
+There are four different types of variables you'll be working with in Ruby:
+
+* **local** —> lives within the space it is declared in (local scope)
+* **$global** —> can be accessed from anywhere (global scope - like most JavaScript variables)
 * **@instance** —> can be accessed by all methods in INSTANCE of that class
 * **@@class** —> can be accessed by class & all instances of that class
 
-#### Methods
+## Methods
 
-* Class methods (can only be called on class)
+Methods are functions in a class. They belong to the class they're defined in.
+
+__Example:__
 
 ```ruby
-def self.method_name
+class Car
+  attr_accessor :started
+
+  # Constructor
+  # -----------
+  # This simple constructor just starts
+  # an instance of a car (or you can instantiate
+  # a new car with the engine turned off)
+  def initialize(started)
+    @started = started || false
+  end
+
+  # This simple method will flip a `@started` instance
+  # variable from true (on) to false (off) each time the method
+  # is called.
+  def turn_engine
+    if @started
+      @started = false
+    else
+      @started = true
+    end
+  end
+
+  # Car#beep
+  # --------
+  # Like honk method but it's an instance method
+  def beep
+    "Beep beeo"
+  end
+
+  # Car#honk
+  # --------
+  # Honks the car's horn. This is a class
+  # level method. It can be used without creating
+  # a new instance of the Car class
+  def self.honk
+    "HOOOOONNNNNNKKKKKKKK!"
+  end
 end
 ```
 
+* Class methods (can be called on a class without creating new instances of it)
 * Instance methods (can only be called on instance of class)
 
+__Examples:__
+
 ```ruby
-def method_name
-end
-def initialize(arguments)
-end
+# Assuming we have the Car class we defined above available here...
+
+# Here's how we use a class method
+puts Car.honk #=> "HOOOOONNNNNNKKKKKKKK!"
+
+# How to use instance methods:
+honda = Car.new()
 ```
-(populates new instance with whatever info you set here)
+
