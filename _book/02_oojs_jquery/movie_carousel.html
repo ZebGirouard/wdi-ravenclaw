@@ -1,0 +1,2398 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <!-- Start book WDI Chicago #4: Ravenclaw -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Movie Carousel Example | WDI Chicago #4: Ravenclaw</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../02_oojs_jquery/d05_fellowship.html" />
+    
+    
+    <link rel="prev" href="../02_oojs_jquery/friday.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="2.5.1"
+        data-chapter-title="Movie Carousel Example"
+        data-filepath="02_oojs_jquery/movie_carousel.md"
+        data-basepath=".."
+        data-revision="Fri Mar 18 2016 11:22:26 GMT-0500 (CDT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction &amp; Syllabus
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1" data-path="0_onboarding/welcome.html">
+            
+                
+                    <a href="../0_onboarding/welcome.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                        Welcome
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2" data-path="0_onboarding/holidays.html">
+            
+                
+                    <a href="../0_onboarding/holidays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                        Student Holidays
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3" data-path="0_onboarding/attendance_policy.html">
+            
+                
+                    <a href="../0_onboarding/attendance_policy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                        Attendance Policy
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4" data-path="0_onboarding/house_rules.html">
+            
+                
+                    <a href="../0_onboarding/house_rules.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                        House Rules
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.5" data-path="0_onboarding/homework_submission.html">
+            
+                
+                    <a href="../0_onboarding/homework_submission.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.5.</b>
+                        
+                        Homework Submission
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.6" data-path="0_onboarding/class_library.html">
+            
+                
+                    <a href="../0_onboarding/class_library.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.6.</b>
+                        
+                        Class Library
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.7" data-path="0_onboarding/required_software.html">
+            
+                
+                    <a href="../0_onboarding/required_software.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.7.</b>
+                        
+                        Required Software
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.8" data-path="0_onboarding/course_outline.html">
+            
+                
+                    <a href="../0_onboarding/course_outline.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.8.</b>
+                        
+                        Course Outline
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.9" data-path="0_onboarding/schedule.html">
+            
+                
+                    <a href="../0_onboarding/schedule.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.9.</b>
+                        
+                        Weekly Schedule
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.10" data-path="0_onboarding/installfest.html">
+            
+                
+                    <a href="../0_onboarding/installfest.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.10.</b>
+                        
+                        InstallFest
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.11" data-path="0_onboarding/required_reading.html">
+            
+                
+                    <a href="../0_onboarding/required_reading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.11.</b>
+                        
+                        Required Reading
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.12" data-path="0_onboarding/dash.html">
+            
+                
+                    <a href="../0_onboarding/dash.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.12.</b>
+                        
+                        Dash
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="01_front_end_fundamentals/index.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Front End Fundamentals
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="01_front_end_fundamentals/d01.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Introduction
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="01_front_end_fundamentals/d01-mac-cheat-sheet.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01-mac-cheat-sheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.1.</b>
+                        
+                        Mac Cheat Sheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="01_front_end_fundamentals/d01-termina-cheat-sheet.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01-termina-cheat-sheet.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.2.</b>
+                        
+                        Terminal Cheat Sheet
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="0_onboarding/intro_to_osx.html">
+            
+                
+                    <a href="../0_onboarding/intro_to_osx.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.3.</b>
+                        
+                        Intro to OS X
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="0_onboarding/basic_terminal.html">
+            
+                
+                    <a href="../0_onboarding/basic_terminal.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.4.</b>
+                        
+                        Basic Terminal &amp; Navigating the Filesystem
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="01_front_end_fundamentals/d01_workhop_cli.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d01_workhop_cli.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.5.</b>
+                        
+                        Workshop: Star Wars Command Line
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="0_onboarding/js_objects.html">
+            
+                
+                    <a href="../0_onboarding/js_objects.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.6.</b>
+                        
+                        Basic Overview of JavaScript Objects
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" data-path="0_onboarding/googleChromeShortcuts.html">
+            
+                
+                    <a href="../0_onboarding/googleChromeShortcuts.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.7.</b>
+                        
+                        Google Chrome Shortcuts
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.8" data-path="01_front_end_fundamentals/chromeDevTools.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/chromeDevTools.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.8.</b>
+                        
+                        Chrome Dev Tools
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01_front_end_fundamentals/d02.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        Introduction to Programming
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="01_front_end_fundamentals/d02-variables.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-variables.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.1.</b>
+                        
+                        Variables
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="01_front_end_fundamentals/d02-datatypes-examples.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-datatypes-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.2.</b>
+                        
+                        Data Types
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="01_front_end_fundamentals/d02-controlflow-examples.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-controlflow-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.3.</b>
+                        
+                        Control Flow
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="01_front_end_fundamentals/d02-stringconcat.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-stringconcat.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.4.</b>
+                        
+                        String Concatenation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="01_front_end_fundamentals/d02-arrays.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-arrays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.5.</b>
+                        
+                        Arrays
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.5.1" data-path="01_front_end_fundamentals/advanced-arrays.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/advanced-arrays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.5.1.</b>
+                        
+                        Advanced Arrays
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="01_front_end_fundamentals/d02-loops.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-loops.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.6.</b>
+                        
+                        Loops
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="01_front_end_fundamentals/d02-syntax.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-syntax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.7.</b>
+                        
+                        Syntax
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="01_front_end_fundamentals/d02_functions.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02_functions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.8.</b>
+                        
+                        Functions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="01_front_end_fundamentals/ah_reading.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/ah_reading.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.9.</b>
+                        
+                        Homework: Reading
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="01_front_end_fundamentals/d02-ah.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d02-ah.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.10.</b>
+                        
+                        Homework: Markdown and Readmes
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="01_front_end_fundamentals/d03.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Functions, Logic, &amp; Control Flow
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="01_front_end_fundamentals/d03_functions_reps.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03_functions_reps.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.1.</b>
+                        
+                        Functions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="01_front_end_fundamentals/anon_named_func.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/anon_named_func.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.2.</b>
+                        
+                        Anonymous vs Named Functions
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="01_front_end_fundamentals/d03_logic_reps.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03_logic_reps.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.3.</b>
+                        
+                        Logic
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="01_front_end_fundamentals/d03_workshop.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03_workshop.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.4.</b>
+                        
+                        Lab/Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="01_front_end_fundamentals/d035.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d035.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        Loops, Arrays, and HTML/CSS
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="01_front_end_fundamentals/d03_hw_review.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03_hw_review.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.1.</b>
+                        
+                        Homework Review
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="01_front_end_fundamentals/d04-htmlcss.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04-htmlcss.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.2.</b>
+                        
+                        HTML and CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="01_front_end_fundamentals/d04-dom.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04-dom.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.3.</b>
+                        
+                        The DOM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="01_front_end_fundamentals/d04-em-to-px.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04-em-to-px.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.4.</b>
+                        
+                        Converting Pixels to EM
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="01_front_end_fundamentals/d03_implent_loops.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03_implent_loops.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.5.</b>
+                        
+                        Implementing Loops Lab
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="01_front_end_fundamentals/d03_modern_html_css.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d03_modern_html_css.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.6.</b>
+                        
+                        Introducing Modern HTML/CSS
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="01_front_end_fundamentals/array_practice.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/array_practice.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.7.</b>
+                        
+                        Bonus Work: Arrays/Loops
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="01_front_end_fundamentals/d04.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Drawing on the Web
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="01_front_end_fundamentals/wed_me.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/wed_me.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.1.</b>
+                        
+                        Morning Exercise
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="01_front_end_fundamentals/d04_selectors.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04_selectors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.2.</b>
+                        
+                        DOM Selectors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="01_front_end_fundamentals/d04-canvas.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d04-canvas.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.3.</b>
+                        
+                        Canvas
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="01_front_end_fundamentals/d06.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d06.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        Functions, Objects, and Recap
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="01_front_end_fundamentals/d06_functions.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d06_functions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.1.</b>
+                        
+                        Functions Recap
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="01_front_end_fundamentals/d06_hw.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d06_hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.2.</b>
+                        
+                        Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="01_front_end_fundamentals/d07.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d07.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.</b>
+                        
+                        Second Pass Friday
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="01_front_end_fundamentals/d07_qa.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d07_qa.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.1.</b>
+                        
+                        Q &amp; A
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="01_front_end_fundamentals/d05-ah.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d05-ah.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.2.</b>
+                        
+                        Weekend Practice
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="01_front_end_fundamentals/d05-ah-bonus.html">
+            
+                
+                    <a href="../01_front_end_fundamentals/d05-ah-bonus.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.7.3.</b>
+                        
+                        Bonus Weekend Practice
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="02_oojs_jquery/index.html">
+            
+                
+                    <a href="../02_oojs_jquery/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Object Oriented JS &amp; jQuery
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="02_intermediate_front_end/intro.html">
+            
+                
+                    <a href="../02_intermediate_front_end/intro.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Intermediate Front-end
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="02_intermediate_front_end/web-type.html">
+            
+                
+                    <a href="../02_intermediate_front_end/web-type.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.1.</b>
+                        
+                        Web Typography
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="02_intermediate_front_end/positioning.html">
+            
+                
+                    <a href="../02_intermediate_front_end/positioning.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.2.</b>
+                        
+                        Box Model and Positioning
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="02_intermediate_front_end/grids.html">
+            
+                
+                    <a href="../02_intermediate_front_end/grids.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.3.</b>
+                        
+                        Flexbox and CSS Grid Systems
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="02_oojs_jquery/d02.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Wireframe to Production
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="02_oojs_jquery/d02-sass.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-sass.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.1.</b>
+                        
+                        Sass &amp; CSS Variables
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="02_oojs_jquery/css_grid.html">
+            
+                
+                    <a href="../02_oojs_jquery/css_grid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.2.</b>
+                        
+                        CSS Box Model &amp; Grid Diagrams
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="02_oojs_jquery/d02-colourtheory.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-colourtheory.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.3.</b>
+                        
+                        Colour Theory 101
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="02_oojs_jquery/d02-style-guide.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02-style-guide.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.4.</b>
+                        
+                        Style Guides
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="02_oojs_jquery/d03-selectors.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-selectors.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.5.</b>
+                        
+                        Selectors
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="02_oojs_jquery/d03-events.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-events.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.6.</b>
+                        
+                        DOM Events
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="02_oojs_jquery/d02_skeleton.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02_skeleton.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.7.</b>
+                        
+                        Skeleton.css
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="02_oojs_jquery/d03-videos.html">
+            
+                
+                    <a href="../02_oojs_jquery/d03-videos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.8.</b>
+                        
+                        Videos!
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.9" data-path="02_oojs_jquery/d02_hw.html">
+            
+                
+                    <a href="../02_oojs_jquery/d02_hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.9.</b>
+                        
+                        Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="02_oojs_jquery/d04.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Write Less &amp; Do: jQuery
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="02_oojs_jquery/d04-jquery.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-jquery.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.</b>
+                        
+                        Intro to jQuery
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="02_oojs_jquery/d04-jquery-boilerplate.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-jquery-boilerplate.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.2.</b>
+                        
+                        jQuery Boilerplate
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="02_oojs_jquery/d04-document-ready.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-document-ready.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.3.</b>
+                        
+                        document.ready
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="02_oojs_jquery/d04-jquery-animation.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04-jquery-animation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.4.</b>
+                        
+                        jQuery Animations
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="02_oojs_jquery/jquery_cs.html">
+            
+                
+                    <a href="../02_oojs_jquery/jquery_cs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.5.</b>
+                        
+                        Practice: Try jQuery
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.6" data-path="02_oojs_jquery/d04_videos.html">
+            
+                
+                    <a href="../02_oojs_jquery/d04_videos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.6.</b>
+                        
+                        jQuery Videos!
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="02_oojs_jquery/d01_ajax.html">
+            
+                
+                    <a href="../02_oojs_jquery/d01_ajax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Ajax
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="02_oojs_jquery/constructor-sample-code.html">
+            
+                
+                    <a href="../02_oojs_jquery/constructor-sample-code.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.1.</b>
+                        
+                        Constructors and JS Objects
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="02_oojs_jquery/ajax-json.html">
+            
+                
+                    <a href="../02_oojs_jquery/ajax-json.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.2.</b>
+                        
+                        What is JSON?
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="02_oojs_jquery/d01_ajax_in_depth.html">
+            
+                
+                    <a href="../02_oojs_jquery/d01_ajax_in_depth.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.3.</b>
+                        
+                        Ajax in Depth
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="02_oojs_jquery/ajax-getjson-lab.html">
+            
+                
+                    <a href="../02_oojs_jquery/ajax-getjson-lab.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.4.</b>
+                        
+                        getJSON Lab
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.5" data-path="02_oojs_jquery/ajax-examples.html">
+            
+                
+                    <a href="../02_oojs_jquery/ajax-examples.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.5.</b>
+                        
+                        Ajax Examples
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.6" data-path="02_oojs_jquery/d01_apis.html">
+            
+                
+                    <a href="../02_oojs_jquery/d01_apis.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.6.</b>
+                        
+                        APIs to Play With
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="02_oojs_jquery/friday.html">
+            
+                
+                    <a href="../02_oojs_jquery/friday.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Second Pass Friday
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.5.1" data-path="02_oojs_jquery/movie_carousel.html">
+            
+                
+                    <a href="../02_oojs_jquery/movie_carousel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.1.</b>
+                        
+                        Movie Carousel Example
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="02_oojs_jquery/d05_fellowship.html">
+            
+                
+                    <a href="../02_oojs_jquery/d05_fellowship.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.2.</b>
+                        
+                        Homework: Fellowship of the Ring
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="02_oojs_jquery/d05_bootflix_ajax.html">
+            
+                
+                    <a href="../02_oojs_jquery/d05_bootflix_ajax.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.3.</b>
+                        
+                        Bonus Homework: Ajax
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="02_oojs_jquery/d05_videos.html">
+            
+                
+                    <a href="../02_oojs_jquery/d05_videos.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.4.</b>
+                        
+                        Videos
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="02_oojs_jquery/responsive.html">
+            
+                
+                    <a href="../02_oojs_jquery/responsive.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        Responsive CSS
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="03_frontend_project/index.html">
+            
+                
+                    <a href="../03_frontend_project/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Project 1: The Game
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="03_frontend_project/deliverables.html">
+            
+                
+                    <a href="../03_frontend_project/deliverables.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Technical Requirements
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="03_frontend_project/getting_started.html">
+            
+                
+                    <a href="../03_frontend_project/getting_started.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        Getting Started
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="03_frontend_project/resources.html">
+            
+                
+                    <a href="../03_frontend_project/resources.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        Resources
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="03_frontend_project/ideas.html">
+            
+                
+                    <a href="../03_frontend_project/ideas.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Project Ideas
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="03_frontend_project/score.html">
+            
+                
+                    <a href="../03_frontend_project/score.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        Feedback &amp; Evaluation
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="04_ruby101/index.html">
+            
+                
+                    <a href="../04_ruby101/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Ruby &amp; Sinatra
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="04_ruby101/d01.html">
+            
+                
+                    <a href="../04_ruby101/d01.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Introduction to Ruby
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="04_ruby101/d01_frontendrecap.html">
+            
+                
+                    <a href="../04_ruby101/d01_frontendrecap.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.1.</b>
+                        
+                        Front-End Recap Quiz
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="04_ruby101/d01-env.html">
+            
+                
+                    <a href="../04_ruby101/d01-env.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.2.</b>
+                        
+                        Dev Environment
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="04_ruby101/d01_string_array_hash.html">
+            
+                
+                    <a href="../04_ruby101/d01_string_array_hash.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.3.</b>
+                        
+                        Strings, Arrays, &amp; Hashes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="04_ruby101/d01_types.html">
+            
+                
+                    <a href="../04_ruby101/d01_types.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.4.</b>
+                        
+                        Detecting Ruby Types
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="04_ruby101/d01_video.html">
+            
+                
+                    <a href="../04_ruby101/d01_video.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.5.</b>
+                        
+                        Video: Pry
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="04_ruby101/d01_conditionals.html">
+            
+                
+                    <a href="../04_ruby101/d01_conditionals.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.6.</b>
+                        
+                        Conditionals
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="04_ruby101/d01_loops.html">
+            
+                
+                    <a href="../04_ruby101/d01_loops.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.7.</b>
+                        
+                        Loops
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="04_ruby101/d01_enumeration.html">
+            
+                
+                    <a href="../04_ruby101/d01_enumeration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.8.</b>
+                        
+                        Enumeration
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.9" data-path="04_ruby101/d01_methods.html">
+            
+                
+                    <a href="../04_ruby101/d01_methods.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.9.</b>
+                        
+                        Methods
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.10" data-path="04_ruby101/d01-single-double-quotes.html">
+            
+                
+                    <a href="../04_ruby101/d01-single-double-quotes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.10.</b>
+                        
+                        Single vs Double Quotes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.11" data-path="04_ruby101/d01-rups.html">
+            
+                
+                    <a href="../04_ruby101/d01-rups.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.11.</b>
+                        
+                        Practice: Rups!
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.12" data-path="04_ruby101/d01-rups2.html">
+            
+                
+                    <a href="../04_ruby101/d01-rups2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.12.</b>
+                        
+                        Homework: Rups! 2.0
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="04_ruby101/d02.html">
+            
+                
+                    <a href="../04_ruby101/d02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Everything is an Object
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="04_ruby101/d02_rups.html">
+            
+                
+                    <a href="../04_ruby101/d02_rups.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.1.</b>
+                        
+                        Rups Recap/Examples
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="04_ruby101/d02_each.html">
+            
+                
+                    <a href="../04_ruby101/d02_each.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.2.</b>
+                        
+                        .each
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.3" data-path="04_ruby101/d02_movie.html">
+            
+                
+                    <a href="../04_ruby101/d02_movie.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.3.</b>
+                        
+                        Movie Object
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.4" data-path="04_ruby101/d02_methods.html">
+            
+                
+                    <a href="../04_ruby101/d02_methods.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.4.</b>
+                        
+                        Methods, Again
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.5" data-path="04_ruby101/d02_classes_in_ruby.html">
+            
+                
+                    <a href="../04_ruby101/d02_classes_in_ruby.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.5.</b>
+                        
+                        Classes
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.6" data-path="04_ruby101/d02_classes_02.html">
+            
+                
+                    <a href="../04_ruby101/d02_classes_02.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.6.</b>
+                        
+                        Classes in Depth
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.7" data-path="04_ruby101/d02_sinatrassongs.html">
+            
+                
+                    <a href="../04_ruby101/d02_sinatrassongs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.7.</b>
+                        
+                        Sinatra&#39;s Songs Exercise
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.8" data-path="04_ruby101/d02_require_files_gems.html">
+            
+                
+                    <a href="../04_ruby101/d02_require_files_gems.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.8.</b>
+                        
+                        Requiring &amp; Using Files/Gems
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.9" data-path="04_ruby101/d02_inheritance_classes.html">
+            
+                
+                    <a href="../04_ruby101/d02_inheritance_classes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.9.</b>
+                        
+                        Inheritance
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.10" data-path="04_ruby101/d02-hw.html">
+            
+                
+                    <a href="../04_ruby101/d02-hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.10.</b>
+                        
+                        Homework: Classes
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="04_ruby101/d03.html">
+            
+                
+                    <a href="../04_ruby101/d03.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        Introduction to Sinatra
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.3.1" data-path="04_ruby101/d03_our_first_server.html">
+            
+                
+                    <a href="../04_ruby101/d03_our_first_server.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.1.</b>
+                        
+                        Our First Server
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.2" data-path="04_ruby101/d03_driving_with_sinatra.html">
+            
+                
+                    <a href="../04_ruby101/d03_driving_with_sinatra.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.2.</b>
+                        
+                        Lab: Driving with Sinatra
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.3" data-path="04_ruby101/d03_lab.html">
+            
+                
+                    <a href="../04_ruby101/d03_lab.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.3.</b>
+                        
+                        Lab: Sinatra On Your Own
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.4" data-path="04_ruby101/d03_erb.html">
+            
+                
+                    <a href="../04_ruby101/d03_erb.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.4.</b>
+                        
+                        ERB (Embedded Ruby) Views
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.5" data-path="04_ruby101/d03_homework.html">
+            
+                
+                    <a href="../04_ruby101/d03_homework.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.5.</b>
+                        
+                        Homework: Animals!
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3.6" data-path="04_ruby101/d03_bonus_hw.html">
+            
+                
+                    <a href="../04_ruby101/d03_bonus_hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.6.</b>
+                        
+                        Bonus Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="04_ruby101/d04.html">
+            
+                
+                    <a href="../04_ruby101/d04.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        Second Pass Friday
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.4.1" data-path="04_ruby101/d04_json.html">
+            
+                
+                    <a href="../04_ruby101/d04_json.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.1.</b>
+                        
+                        JSON
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.2" data-path="04_ruby101/d04_rubyqa.html">
+            
+                
+                    <a href="../04_ruby101/d04_rubyqa.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.2.</b>
+                        
+                        Ruby Q&amp;A
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.3" data-path="04_ruby101/d04_sinatra_again.html">
+            
+                
+                    <a href="../04_ruby101/d04_sinatra_again.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.3.</b>
+                        
+                        Sinatra Second Pass
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.4" data-path="04_ruby101/d04_heroku.html">
+            
+                
+                    <a href="../04_ruby101/d04_heroku.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.4.</b>
+                        
+                        Deploying to Heroku
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4.5" data-path="04_ruby101/d04_hw.html">
+            
+                
+                    <a href="../04_ruby101/d04_hw.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.5.</b>
+                        
+                        Homework
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >WDI Chicago #4: Ravenclaw</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="movie-carousel">Movie Carousel</h2>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> movies = [<span class="hljs-string">&apos;Interstellar&apos;</span>, <span class="hljs-string">&apos;Empire Strikes Back&apos;</span>, <span class="hljs-string">&quot;Kill Bill&quot;</span>, <span class="hljs-string">&quot;Wreck it Ralph&quot;</span>];
+<span class="hljs-comment">// api key.. &amp;apikey=d31f1a94</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">MovieElement</span>(<span class="hljs-params">movieObject</span>) </span>{
+
+  <span class="hljs-comment">// create all of my DOM elements and give them attributes/css/etc</span>
+  <span class="hljs-keyword">this</span>.domElement = $(<span class="hljs-string">&apos;&lt;article&gt;&lt;/article&gt;&apos;</span>);
+  <span class="hljs-keyword">this</span>.header = $(<span class="hljs-string">&apos;&lt;h1&gt;&apos;</span> + movieObject.Title + <span class="hljs-string">&apos;&lt;/h1&gt;&apos;</span>);
+  <span class="hljs-keyword">this</span>.director = $(<span class="hljs-string">&apos;&lt;h3&gt;&apos;</span> + movieObject.Director + <span class="hljs-string">&apos;&lt;/h3&gt;&apos;</span>);
+  <span class="hljs-keyword">this</span>.image = $(<span class="hljs-string">&apos;&lt;img src=&apos;</span> + movieObject.Poster + <span class="hljs-string">&apos;&gt;&apos;</span>);
+  <span class="hljs-keyword">this</span>.plot = $(<span class="hljs-string">&apos;&lt;p&gt;&apos;</span> + movieObject.Plot + <span class="hljs-string">&apos;&lt;/p&gt;&apos;</span>);
+
+  <span class="hljs-comment">// now I add them together like legos or lincoln logs</span>
+  <span class="hljs-keyword">this</span>.domElement.prepend(<span class="hljs-keyword">this</span>.plot);
+  <span class="hljs-keyword">this</span>.domElement.prepend(<span class="hljs-keyword">this</span>.image);
+  <span class="hljs-keyword">this</span>.domElement.prepend(<span class="hljs-keyword">this</span>.director);
+  <span class="hljs-keyword">this</span>.domElement.prepend(<span class="hljs-keyword">this</span>.header);
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-keyword">this</span>);
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.domElement;
+
+};
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">addMovieToPage</span>(<span class="hljs-params">url</span>) </span>{
+  $.getJSON(url, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">movie</span>) </span>{
+    <span class="hljs-keyword">var</span> movieObj = <span class="hljs-keyword">new</span> MovieElement(movie);
+    $(<span class="hljs-string">&apos;#movies&apos;</span>).append(movieObj);
+  });
+}
+
+<span class="hljs-built_in">window</span>.onload = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">evt</span>) </span>{
+  <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&apos;Heyllllloooo&apos;</span>);
+  <span class="hljs-comment">// wanna show you my favourite movies</span>
+  addMovieToPage(<span class="hljs-string">&apos;http://www.omdbapi.com/?t=interstellar&amp;y=&amp;plot=short&amp;r=json&apos;</span>);
+  addMovieToPage(<span class="hljs-string">&apos;http://www.omdbapi.com/?t=empire+strikes+back&amp;y=&amp;plot=short&amp;r=json&apos;</span>);
+  addMovieToPage(<span class="hljs-string">&apos;http://www.omdbapi.com/?t=mean+girls&amp;y=&amp;plot=short&amp;r=json&apos;</span>);
+  addMovieToPage(<span class="hljs-string">&apos;http://www.omdbapi.com/?t=almost+famous&amp;y=&amp;plot=short&amp;r=json&apos;</span>);
+}
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../02_oojs_jquery/friday.html" class="navigation navigation-prev " aria-label="Previous page: Second Pass Friday"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../02_oojs_jquery/d05_fellowship.html" class="navigation navigation-next " aria-label="Next page: Homework: Fellowship of the Ring"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"toggle-chapters":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book WDI Chicago #4: Ravenclaw -->
+</html>

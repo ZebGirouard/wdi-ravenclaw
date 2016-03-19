@@ -1,4 +1,4 @@
-## 4.4 Ruby Q&A
+## Ruby Recap
 
 #### Recap Video
 
