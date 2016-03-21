@@ -1,5 +1,5 @@
 
-## 5.1 Introduction to Databases
+## Introduction to Databases
 
 
 #### Agenda

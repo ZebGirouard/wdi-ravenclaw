@@ -1,5 +1,5 @@
 
-## 5.1 Postgres SQL Cheat Sheet
+## Postgres SQL Cheat Sheet
 
 
 #### Getting Started

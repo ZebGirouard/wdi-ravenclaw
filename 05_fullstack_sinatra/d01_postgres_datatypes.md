@@ -1,3 +1,3 @@
-## 5.1 Postgres Data Types
+## Postgres Data Types
 
 ![postgres_datatypes.png](postgres_datatypes.png)
