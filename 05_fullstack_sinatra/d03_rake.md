@@ -1,5 +1,5 @@
 
-## 5.3 Why use rake?
+## Why use rake?
 * When you make migrations using rake, it makes timestamped migration file for you.
 * When you use migrations, you can now have templates for your objects that will be made with postgresql, this lets other users use whatever database you set up instead of it living in your machine only
 

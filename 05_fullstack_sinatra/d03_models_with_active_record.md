@@ -1,5 +1,5 @@
 
-## 5.3 Models with ActiveRecord
+## Models with ActiveRecord
 
 #### Agenda
 

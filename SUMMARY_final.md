@@ -125,7 +125,7 @@
     * [CRUD with ActiveRecord](05_fullstack_sinatra\d03_activerecord_crud.md)
     * [ERB in Depth](05_fullstack_sinatra\d03_erb.md)
     * [Rake & Migrations](05_fullstack_sinatra/d03_rake.md)
-    * [Lab: Pair Programming](05_fullstack_sinatra/d03_,moar_crud_reps.md)
+    * [Lab: Pair Programming](05_fullstack_sinatra/d03_moar_crud_reps.md)
     * [Homework](05_fullstack_sinatra\d03_hw.md)
   * [Models and Controllers](05_fullstack_sinatra/d04.md)
     * [Models and SQL Q&A](05_fullstack_sinatra/d04_qa_models_sql.md)

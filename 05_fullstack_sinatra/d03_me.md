@@ -1,12 +1,12 @@
-## 5.3 Wireframe Shopping List
+## Wireframe wtfbbq
 
-This week we're going to build a shopping list application. This application will allow you to log in to a Shopping List website. From there, you will be able to view, add, update, and remove items that you need to purchase. The business logic is the same for all applications but feel free to get creative with the design and wording of the app.
+This week we're going to build the wtfbbq application. This application will allow you to log in to a website. From there, you will be able to view, add, update, and remove ingredients. Feel free to get creative.
 
 We're going to build out wireframes for this application. To get started, we need to think about the `views` that our project needs. By now, you should have created (but maybe not designed) the following views:
 
 * Account Registration
 * Account Login
-* List of Shopping Items
+* Account Maintenance
 
 **Whatever you are unable to finish this morning should be completed during workshop time this afternoon.**
 

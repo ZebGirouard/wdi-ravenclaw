@@ -1,7 +1,7 @@
 
-## 5.3 MOAR REPS with Sinatra's Songs
+## MOAR REPS with Sinatra's Songs
 
-We need *moar reps*. Let's run through our process again before jumping into full CRUD actions tomorrow. Pick a random partner in the class (someone you haven't worked with before) and create a **new** Github repository. You're going to pair program to create an application called `sinatra_songs`.
+We need *moar reps*. Let's run through our process again! Pick a random partner in the class (someone you haven't worked with before) and create a **new** Github repository called `sinatras_songs`. You're going to pair program to create an application called `sinatra_songs`.
 
 1. We need a database to store songs!
 2. Songs have `artist` and `title`. Perhaps even a `release_year`?

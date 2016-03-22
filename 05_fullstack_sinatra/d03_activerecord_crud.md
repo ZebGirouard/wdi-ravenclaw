@@ -1,4 +1,4 @@
-## 5.3 Model CRUD with Active Record
+## Model CRUD with Active Record
 
 #### Getting Started
 

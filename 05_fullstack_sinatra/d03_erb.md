@@ -1,4 +1,4 @@
-## 5.3 ERB (Embedded Ruby) In Depth
+## ERB (Embedded Ruby) In Depth
 
 Imagine that we have a route that supplies us some information. In our route, we can declare a few variables for use in an **ERB** page. We then call the **ERB** method to load a *view*. For example:
 
