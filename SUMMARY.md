@@ -159,5 +159,6 @@
   * [Models and Controllers](05_fullstack_sinatra/d04.md)
     * [Models and SQL FAQ](05_fullstack_sinatra/d04_qa_models_sql.md)
     * [Guide: CRUD from Scratch](05_fullstack_sinatra/d04_guide.md)
+    * [ApplicationController & Config](05_fullstack_sinatra/d04_appcontroller.md)
     * [CRUD Controllers](05_fullstack_sinatra/d04_crud_controller.md)
     * [Homework/Lab](05_fullstack_sinatra/d04_pairprogramming.md)
