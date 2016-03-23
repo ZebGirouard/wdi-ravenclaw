@@ -156,3 +156,8 @@
     * [Rake & Migrations](05_fullstack_sinatra/d03_rake.md)
     * [Lab: Pair Programming](05_fullstack_sinatra/d03_moar_crud_reps.md)
     * [Homework](05_fullstack_sinatra\d03_hw.md)
+  * [Models and Controllers](05_fullstack_sinatra/d04.md)
+    * [Models and SQL FAQ](05_fullstack_sinatra/d04_qa_models_sql.md)
+    * [Guide: CRUD from Scratch](05_fullstack_sinatra/d04_guide.md)
+    * [CRUD Controllers](05_fullstack_sinatra/d04_crud_controller.md)
+    * [Homework/Lab](05_fullstack_sinatra/d04_pairprogramming.md)

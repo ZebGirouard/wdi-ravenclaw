@@ -1,4 +1,4 @@
-## 5.4 Bundling Your Knowledge Together
+## Bundling Your Knowledge Together
 
 We're going to put together a project based on what you have learned this morning. This will reinforce your understanding of how to build an application. Together, we're going to build a step-by-step guide on how to get a Sinatra application put together from start to finish.
 

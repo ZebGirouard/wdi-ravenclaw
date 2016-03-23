@@ -1,4 +1,4 @@
-## 5.4 Sinatra Walkthrough guide
+## Sinatra Walkthrough guide
 
 #### Database Design
 
@@ -12,8 +12,10 @@
 
 #### Creating a Sinatra Application
 
-* We need 3 files, right?
-* `app.rb`, `config.ru`, `Gemfile`
+* We need some files, right?
+* `config.ru`, `Gemfile`
+* What folders?
+* `helpers`, `db,` `models`, `views`, `public`, and `controllers`
 
 #### Adding Models
 
@@ -21,11 +23,20 @@
 * `models\name_of_model.rb`
 * Now, require it in our `config.ru`
 
-#### Project Code
+#### How do we add controllers?
 
-* https://github.com/code-for-coffee/chicago-recommendations
+1. Controllers need to be in a `/controllers` folder.
+2. Name each controller after the resource it represents (hint: ActiveRecord Model names == Controller names)
+3. The controller class should be ResourcenameController
+4. `/controllers/resource.rb`
+5. Each controller should inherit from ApplicationController
+6. In our config.ru, we need to:
+  - require the controller - `require './controllers/resource'`
+  - require any model (or helpers) the controller needs
+  - map a resource (route) to a controller - `map('/resource') { run ResourcenameController }`
 
-#### Videos
+
+#### Videos Reference
 
 * Part One: https://youtu.be/gKg0IpFKtOg
 * Part Two: https://youtu.be/dzxzemDg8GY

@@ -1,4 +1,4 @@
-## 5.5 ActiveRecord Relationships
+## ActiveRecord Relationships
 * ActiveRecord establishes relationships between tables in the model files
 * Basic ActiveRecord relationships:
   1. belongs_to - one to one relationship

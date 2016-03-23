@@ -1,5 +1,5 @@
 
-#### 5.4 CRUD Controllers
+#### CRUD Controllers
 
 When building out an application, it sure is nice to have a starter template. Here is a CRUD controller template to get you started! It includes appropriate GET and POST methods for CREATE, READ, UPDATE, and DESTROY. The Index is designed to list all items.
 
