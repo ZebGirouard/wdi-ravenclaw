@@ -101,3 +101,5 @@ We can perform CRUD operations on this data now. We can:
 #### SQL: An explanation for the query language
 
 SQL stands for Standard Query Language. It is a query language that *all* relational databases use to Create, Read, Update, and Delete data. Some databases stray from the standard *slightly* here or there but if you know SQL then you'll be able to work with data in __any database__ whether it's in a Postgres database, MySQL database, SQLite, or any other relational database. The big practical difference between database applications is how you create databases and users to access the system but as far as running CRUD operations on data in a database, all database software works the same because they all use SQL.
+
+...more to come...
