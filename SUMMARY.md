@@ -163,3 +163,4 @@
     * [CRUD Controllers](05_fullstack_sinatra/d04_crud_controller.md)
     * [Homework/Lab](05_fullstack_sinatra/d04_pairprogramming.md)
   * [MVC: The Complete Guide](05_fullstack_sinatra/mvc_guide.md)
+  * [Weekly Review](05_fullstack_sinatra/second-pass.md)
