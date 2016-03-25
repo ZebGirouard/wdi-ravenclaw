@@ -1,4 +1,4 @@
-## 5.7 Videos: Production Servers on Digital Ocean with Unicorn & Nginx
+## Videos: Production Servers on Digital Ocean with Unicorn & Nginx
 
 **Digital Ocean with Unicorn & Nginx**
 - *Part One - Provisioning Droplet*:  https://www.youtube.com/watch?v=M6U8_VN8eFE

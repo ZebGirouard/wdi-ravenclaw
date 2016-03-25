@@ -1,4 +1,4 @@
-## 5.7 Morning Exercise with Divvy
+## JS + Ajax with Divvy
 
 #### Source
 

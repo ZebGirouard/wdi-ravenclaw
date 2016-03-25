@@ -1,4 +1,4 @@
-## 5.7 Classes, Revisited
+## Classes, Revisited
 
 #### Getting and Setting
 

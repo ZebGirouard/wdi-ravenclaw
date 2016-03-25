@@ -1,4 +1,4 @@
-## 5.7 JSON Reader
+## JSON Reader
 
 As requested, here is our trusty **JSONReader**!
 

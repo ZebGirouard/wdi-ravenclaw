@@ -1,4 +1,4 @@
-## 5.7 Application Controller Architecture
+## Application Controller Architecture
 
 ```Ruby
 class ApplicationController < ActiveRecord::Base

@@ -1,4 +1,4 @@
-## 5.7 BCrypt Example
+## BCrypt Example
 
 * The following source code may be found at [https://github.com/ga-chicago/sinatra_cru](https://github.com/ga-chicago/sinatra_cru) on the **ga-chicago** organization. This demonstrates actual use in a Sinatra application.
 

@@ -1,4 +1,4 @@
-## 5.7 Mapping Routes to Controllers
+## Mapping Routes to Controllers
 
 #### Diagram
 

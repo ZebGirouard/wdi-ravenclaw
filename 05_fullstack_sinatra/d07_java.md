@@ -1,4 +1,4 @@
-## 5.7 Class in Java
+## Class in Java
 
 *Just for fun, here is what a class looks like in another programming language: Java.*
 
