@@ -19,13 +19,14 @@ Your app must:
 * **Utilize an ORM to create a database table structure** and interact with your relationally-stored data
 * **Include wireframes** that you designed during the planning process
 * Have **semantically clean HTML and CSS**
-* **Be deployed online** and accessible to the public
+* *Bonus*: **Be deployed online** and accessible to the public
 
 ---
 
 ### Necessary Deliverables
 
-* A **working full-stack application, built by you**, hosted somewhere on the internet
+* A **working full-stack application, built by you**
+* *Bonus*: hosted somewhere on the internet
 * A **link to your hosted working app** in the URL section of your Github repo
 * A **git repository hosted on Github**, with a link to your hosted project,  and frequent commits dating back to the **very beginning** of the project. Commit early, commit often.
 * **A ``readme.md`` file** with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
