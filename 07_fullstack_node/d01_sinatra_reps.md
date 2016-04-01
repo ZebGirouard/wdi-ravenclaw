@@ -1,4 +1,5 @@
-##Make a simple sinatra template
+## Make a simple sinatra template
+
 Gemfile
 ```ruby
 source 'https://rubygems.org'

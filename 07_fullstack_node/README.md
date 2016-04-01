@@ -1,10 +1,6 @@
-
-
 # The MEAN Stack
 
-![Javascript as a Server](intro.png)
-
-<img src="js_everywhere.jpg" alt="JS Meme">
+![JS Everywhere](js_everywhere.jpg)
 
 ## What is the MEAN Stack?
 
@@ -24,4 +20,4 @@ The *MEAN* stack is a full stack for development similar to Ruby on Rails or Sin
 
 ## How the stack works together
 
-<img src="mean-stack.png" alt="MEAN stack">
+![MEAN Stack](mean-stack.png)

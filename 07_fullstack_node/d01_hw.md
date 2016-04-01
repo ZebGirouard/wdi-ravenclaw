@@ -1,4 +1,4 @@
-## 7.1 Javascript Recap, Reps, and Resilience
+## Javascript Recap, Reps, and Resilience
 
 #### Instructions
 
@@ -87,10 +87,10 @@ Create the following variables and in a comment after the variable, state the ty
 
 * It is a dark time for the Ruby Rebellion.
 * Javascript is on the rise.
-* We use Backbone to create models...
+* Even though you haven't used it, developers use Backbone.js to create models on the client side.
 * Backbone models can *get()* and *set()* properties (similar to Ruby Classes).
 * Create two functions that mimics `model.get` and `model.set` for an object.
-* These functions will be `abilities` on an object called `model`.
+* These functions will be `abilities` on an object called `model`. Attributes store *properties*.
 
 #### 13. AJAXXXXXXXXXXXXXXXX
 

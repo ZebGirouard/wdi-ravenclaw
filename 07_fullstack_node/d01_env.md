@@ -1,4 +1,4 @@
-## 7.1 Setup your Node Environment
+## Setup your Node Environment
 
 #### OS X
 ```bash

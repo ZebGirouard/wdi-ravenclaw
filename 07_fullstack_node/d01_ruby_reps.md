@@ -1,4 +1,4 @@
-##Make an animal class
+## Make an animal class
 1. The class should be instantiated with a name, cell type (eukaryotic), and 2 other properties an animal has
 2. The class should have 2 methods of your chose that pertains to the class
 
