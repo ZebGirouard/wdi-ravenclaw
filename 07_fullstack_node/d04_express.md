@@ -1,4 +1,4 @@
-## 7.4 Getting Started with Express
+## Getting Started with Express
 
 To get started, let's go ahead and add **Express.js** to our project by running the following command:
 

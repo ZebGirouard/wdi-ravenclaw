@@ -1,4 +1,4 @@
-## 7.4 Express.js (Sinatra for Node)
+## Express.js (Sinatra for Node)
 
 **Express**: http://expressjs.com/
 

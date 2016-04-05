@@ -1,4 +1,4 @@
-## 7.2 Introduction to Jasmine
+## Introduction to Jasmine
 
 * [Official Jasmine.js Documentation](http://jasmine.github.io/2.0/introduction.html)
 * [Jasmine Boilerplate from Class](https://github.com/code-for-coffee/jasmine_intro)

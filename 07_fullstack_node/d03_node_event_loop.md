@@ -1,4 +1,4 @@
-## 7.2 Node Event Loop
+## Node Event Loop
 
 
 ![Event Loop](eventloop_node.png)
