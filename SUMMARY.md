@@ -200,6 +200,7 @@
     * [Node Server Examples](07_fullstack_node/d02_node_examples.md)
     * [Sinatra vs Node](07_fullstack_node/d02_sinatra_vs_node.md)
     * [Node Modules](07_fullstack_node/d02_node_modules.md)
+    * [Modules for Newbies](07_fullstack_node/d02_modules.md)
     * [Exercise: Modules](07_fullstack_node/d02_car.md)
     * [Homework: Requesting with Node](07_fullstack_node/d02_hw.md)
   * [MongoDB & the Wonders of NoSQL](07_fullstack_node/d03.md)
