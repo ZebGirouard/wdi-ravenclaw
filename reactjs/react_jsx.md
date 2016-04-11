@@ -7,13 +7,13 @@ React uses a template language called **JSX**. It is very XML-like in structure.
 
 *Example #1:*
 
-```JSX
+```js
 <div>Would you like to buy {this.props.quantity} apples?</div>
 ```
 
 *Example #2:*
 
-```JSX
+```js
 <article><h1>{this.props.headline}</h1>
 <p>{this.props.content}</p>
 </article>
@@ -29,7 +29,7 @@ Each component will have a `render()` function that `return`s a JSX template. Le
 
 *Example #3:*
 
-```JSX
+```js
 var Item = React.createClass({
     render: function () {
         return <article>
