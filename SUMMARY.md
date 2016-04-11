@@ -229,7 +229,7 @@
     * [Gulp's Default Task](reactjs/gulp_default_task.md)
     * [Gulp with Sass](reactjs/gulp-sass.md)
     * [Gulp Workflow](reactjs/gulp_project.md)
-  * [Introduction React.js](reactjs/README.md)
+  * [Introduction to React.js](reactjs/README.md)
     * [Components with JSX](reactjs/react_jsx.md)
     * [Components Example](reactjs/react_example.md)
     * [Understanding what React Solves](reactjs/react_activities.md)
