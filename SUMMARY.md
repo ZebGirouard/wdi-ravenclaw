@@ -227,6 +227,7 @@
 * [React.js](11_reactjs/README.md)
   * [Using Gulp](11_reactjs/gulp.md)
     * [Gulp's Default Task](11_reactjs/gulp_default_task.md)
+    * [Gulp with Sass](reactjs/gulp-sass.md)
     * [Project: Gulp Workflow](11_reactjs/gulp_project.md)
   * [Introduction React.js](11_reactjs/README.md)
     * [Components with JSX](11_reactjs/react_jsx.md)
