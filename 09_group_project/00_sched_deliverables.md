@@ -1,6 +1,6 @@
 ## Project Deliverables
 
-Deliverables must be emailed by your team's SCRUM Leader to the instructional staff daily. All three emails are: jamest@ga.co, adriana.castaneda@ga.co, james.haff@ga.co
+Deliverables must be emailed by your team's SCRUM Leader to the instructional staff the day they are due. All three emails are: jamest@ga.co, james.haff@ga.co, and bill.patrianakos@ga.co
 
 * **Sunday, 10pm CST**: Project Initiation Survey, ERD Diagrams, Project Scope
 * **Monday, 10pm CST**: UI Wireframes, User Stories, Database Setup, Sample Data
