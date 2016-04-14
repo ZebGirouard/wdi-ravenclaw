@@ -1,11 +1,25 @@
 ## Project 3 Teams
 
+## The Teams
+
+##### Unicorns
+Max, Brian, Cam, Shawn, Michael
+
+##### Platypi
+
+Armando, Josh, Natalia, Alex
+
+##### Narwhals
+
+Scott, David, Victoria, Dan
+
+## Next...
+
 You must:
-- Form a team of 2-4 people
 - Select one SCRUM leader
 - Select one Git maintainer
 
-You should share contact information with your team. We recommend sharing the two primary methods of contact that you use (for example, James uses Hangouts or email primarily but Jim uses iMessage and SMS). 
+You should share contact information with your team. We recommend sharing the two primary methods of contact that you use (for example, James uses Hangouts or email primarily but Jim uses iMessage and SMS).
 
 #### SCRUM Leader
 

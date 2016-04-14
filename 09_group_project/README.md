@@ -2,9 +2,9 @@
 
 ### Overview
 
-You’ve already worked in small groups to accomplish various labs and exercises, but this time **we’re going to challenge you to work on a whole project with a small team.** 
+You’ve already worked in small groups to accomplish various labs and exercises, but this time **we’re going to challenge you to work on a whole project with a small team.**
 
-Not only will you be asked to **exercise additional creativity** in designing your own project, you will partner you with other classmates to architect, design, and collaboratively build an API of your own design. 
+Not only will you be asked to **exercise additional creativity** in designing your own project, you will partner you with other classmates to architect, design, and collaboratively build an API of your own design.
 
 While your last project taught you how to get started with Ruby, SQL, & Sinatra, this project you'll be building something exciting with **Express & Mongo.**
 
@@ -22,12 +22,13 @@ Your app must:
 * **Use Mongo & Express** to build an API and a front-end that consumes it
 * **Create an API using at least 2 related models**, one of which should be a user
 * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
-* **Consume your own API** by making your front-end with HTML, Javascript, & jQuery (Backbone is a huge plus!)
+* **Consume your own API** by making your front-end with HTML, Javascript, & jQuery. React or another frame is a _huge plus_ but not required.
 * **Add authentication to your API** to restrict access to appropriate users
 * **Craft thoughtful user stories together**, as a team
 * **Manage team contributions and collaboration** using a standard Git flow on Github
 * Layout and style your front-end with **clean & well-formatted CSS (LESS is a huge plus)**
-* **Deploy your application online** so it's publically accessible
+* **Deploy your application online** so it's on the web and accessible
+* **Build Service-Oriented Architecture**... host the API on one server and the client on another server that _consumes_ your API.
 
 
 ---
@@ -61,7 +62,6 @@ Your app must:
 * **Make it all well-formatted.** Are you indenting, consistently? Can we find the start and end of every div, curly brace, etc?
 * **Comment your code.** Will someone understand what is going on in each block or function? Even if it's obvious, explaining the what & why means someone else can pick it up and get it.
 * **Write pseudocode before you write actual code.** Thinking through the logic of something helps.
-
 
 ---
 
@@ -102,11 +102,11 @@ Imagine the benefits of having an API where you could embed comments into any we
 
 * __Total__: Your instructors will give you a total score on your project between:
 
-    Score | Expectations
-    ----- | ------------
-    **0** | _Incomplete._
-    **1** | _Does not meet expectations._
-    **2** | _Meets expectactions, good job!_
-    **3** | _Exceeds expectations, you wonderful creature, you!_
+Score | Expectations
+----- | ------------
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectactions, good job!_
+**3** | _Exceeds expectations, you wonderful creature, you!_
 
- This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
+This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
