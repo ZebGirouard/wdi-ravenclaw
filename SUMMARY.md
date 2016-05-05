@@ -254,6 +254,7 @@
 * [Ruby on Rails](rubyonrails/README.md)
 * [Angular.js](angular/README.md)
 * [Computer Science](12_cs/README.md)
+* [The Terminal Environment](13_cs/envvars.md)
 * [Interviewing](interviewing/README.md)
   * [Breaking Problems Down](interviewing/breaking_problems_down.md)
   * [Group Interview](interviewing/group_interview.md)
