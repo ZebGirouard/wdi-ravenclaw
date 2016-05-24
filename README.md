@@ -7,7 +7,8 @@
 Please use the navigation bar to the left to browse our cohort's *living syllabus/textbook*.
 
 ## Living link to gitbook
-https://ga-chicago.gitbooks.io/wdi-ravenclaw/content/
+
+[ga-chicago.gitbooks.io/wdi-ravenclaw/content/](https://ga-chicago.gitbooks.io/wdi-ravenclaw/content/)
 
 ## Your Instructors
 <table>
